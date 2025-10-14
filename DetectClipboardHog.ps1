@@ -1,155 +1,100 @@
-# DetectClipboardHog.ps1 version 1.26
-Write-Host "=== DetectClipboardHog.ps1 version 1.26 starting ==="
+# DetectClipboardHog.ps1
+# version 1.39
 
-# --------------------------------------------------------------------
-# Win32 interop setup
-# --------------------------------------------------------------------
-$versionTag = "v1_26"
-$global:Win32TypeName = "Win32_$versionTag"
-$global:Win32Type = $null
+Write-Host "=== DetectClipboardHog.ps1 version 1.39 starting ==="
 
-$existing = [AppDomain]::CurrentDomain.GetAssemblies() |
-    ForEach-Object { $_.GetTypes() } |
-    Where-Object { $_.Name -eq $global:Win32TypeName }
+$global:Win32Type = "Win32Interop"
 
-if ($existing) {
-    Write-Host "Reusing loaded interop type: $global:Win32TypeName"
-    $global:Win32Type = $existing
-} else {
-    Write-Host "Initializing interop type: $global:Win32TypeName"
-
-    $sig = @"
+# Load Win32 interop type if not already loaded
+if (-not ([Type]::GetType($global:Win32Type))) {
+    $win32Definition = @"
 using System;
+using System.Text;
 using System.Runtime.InteropServices;
 
-public class $global:Win32TypeName {
+public static class Win32Interop {
     [DllImport("user32.dll")]
     public static extern IntPtr GetOpenClipboardWindow();
 
     [DllImport("user32.dll")]
-    public static extern int GetWindowThreadProcessId(IntPtr hWnd, out int processId);
+    public static extern uint GetWindowThreadProcessId(IntPtr hWnd, out uint lpdwProcessId);
 
-    [DllImport("user32.dll", SetLastError = true)]
-    public static extern int GetWindowText(IntPtr hWnd, System.Text.StringBuilder text, int count);
-
-    [DllImport("user32.dll")]
-    public static extern IntPtr GetForegroundWindow();
+    [DllImport("user32.dll", SetLastError=true, CharSet=CharSet.Auto)]
+    public static extern int GetWindowText(IntPtr hWnd, StringBuilder lpString, int nMaxCount);
 }
 "@
 
     try {
-        Add-Type -TypeDefinition $sig -ErrorAction Stop
-        $global:Win32Type = [Type]::GetType($global:Win32TypeName, $false)
-        if (-not $global:Win32Type) {
-            $global:Win32Type = [AppDomain]::CurrentDomain.GetAssemblies() |
-                ForEach-Object { $_.GetTypes() } |
-                Where-Object { $_.Name -eq $global:Win32TypeName } |
-                Select-Object -First 1
-        }
-        Write-Host "Win32 interop type $global:Win32TypeName loaded successfully."
+        Add-Type -TypeDefinition $win32Definition -ErrorAction Stop
+        Write-Host "Win32 interop type $global:Win32Type loaded successfully."
     } catch {
-        Write-Warning "⚠ Add-Type failed: $($_.Exception.Message)"
+        Write-Warning "Win32 type could not be loaded: $($_.Exception.Message)"
     }
-}
-
-if (-not $global:Win32Type) {
-    Write-Warning "⚠ Win32 interop type failed to load properly."
-}
-
-Write-Host "Enhanced clipboard monitoring with RustDesk correlation..."
-Write-Host "Press Ctrl+C to stop monitoring..."
-Start-Sleep -Seconds 1
-Write-Host "Testing clipboard detection..."
-
-# --------------------------------------------------------------------
-# RustDesk log path
-# --------------------------------------------------------------------
-$rustDeskLog = "$env:AppData\RustDesk\log\cm\RustDesk_rCURRENT.log"
-Write-Host "Watching RustDesk log for clipboard errors: $rustDeskLog"
-
-# --------------------------------------------------------------------
-# Identify PowerShell instances to ignore (those tailing RustDesk logs)
-# --------------------------------------------------------------------
-$ignorePIDs = @()
-try {
-    $ignorePIDs = Get-Process -Name "powershell" -ErrorAction SilentlyContinue |
-        Where-Object {
-            try { $_.Path -like "C:\rustdesk-server\*" } catch { $false }
-        } |
-        Select-Object -ExpandProperty Id -ErrorAction SilentlyContinue
-} catch {}
-
-if ($ignorePIDs.Count -gt 0) {
-    Write-Host "Ignoring PowerShell PIDs from C:\rustdesk-server: $($ignorePIDs -join ', ')"
 } else {
-    Write-Host "No PowerShell PIDs from C:\rustdesk-server found to ignore."
+    Write-Host "Win32 interop type $global:Win32Type already defined."
 }
 
-# --------------------------------------------------------------------
-# Function: Get clipboard lock info
-# --------------------------------------------------------------------
-function Get-ClipboardOwnerInfo {
+# Function to check clipboard lock
+function Get-ClipboardOwner {
+    if (-not ([Type]::GetType($global:Win32Type))) {
+        Write-Warning "Unable to find type [$global:Win32Type]."
+        return $null
+    }
+
     try {
-        if (-not $global:Win32Type) { return "Error: Win32 type not found" }
+        $hWnd = [Win32Interop]::GetOpenClipboardWindow()
+        if ($hWnd -eq [IntPtr]::Zero) { return $null }
 
-        $t = $global:Win32Type
-        $hWnd = $t::GetOpenClipboardWindow()
-        if ($hWnd -eq [IntPtr]::Zero) {
-            # Try fallback to foreground window
-            $hWnd = $t::GetForegroundWindow()
-            if ($hWnd -eq [IntPtr]::Zero) { return "None | PID:  | Process:" }
-        }
-
-        $procId = 0
-        [void]$t::GetWindowThreadProcessId($hWnd, [ref]$procId)
+        [uint32]$pid = 0
+        [Win32Interop]::GetWindowThreadProcessId($hWnd, [ref]$pid) | Out-Null
 
         $sb = New-Object System.Text.StringBuilder 256
-        [void]$t::GetWindowText($hWnd, $sb, $sb.Capacity)
-        $winText = $sb.ToString()
+        [Win32Interop]::GetWindowText($hWnd, $sb, $sb.Capacity) | Out-Null
 
-        $proc = if ($procId -ne 0) { Get-Process -Id $procId -ErrorAction SilentlyContinue } else { $null }
-        $procName = if ($proc) { $proc.ProcessName } else { "" }
-
-        # Check if this PID should be ignored
-        if ($ignorePIDs -contains $procId) {
-            return "IGNORED PowerShell (RustDesk tail) | PID: $procId | Process: $procName"
-        }
-
-        return "$winText | PID: $procId | Process: $procName"
+        $ownerName = $sb.ToString()
+        return @{ PID = $pid; Name = $ownerName }
     } catch {
-        return "Error retrieving owner: $($_.Exception.Message)"
+        Write-Warning "Clipboard lock detection error: $($_.Exception.Message)"
+        return $null
     }
 }
 
-# --------------------------------------------------------------------
-# Function: Clipboard test read
-# --------------------------------------------------------------------
-function Test-Clipboard {
+# Main monitoring loop
+Write-Host "Enhanced clipboard monitoring with RustDesk correlation..."
+Write-Host "Press Ctrl+C to stop monitoring..."
+
+while ($true) {
+    # Basic clipboard read test
     try {
-        Get-Clipboard -ErrorAction Stop | Out-Null
+        $clip = Get-Clipboard -ErrorAction Stop
         Write-Host "$(Get-Date -Format 'HH:mm:ss.fff') Clipboard read OK"
-        return $true
     } catch {
-        Write-Host "$(Get-Date -Format 'HH:mm:ss.fff') Clipboard read FAILED"
-        return $false
-    }
-}
-
-# --------------------------------------------------------------------
-# Monitor loop
-# --------------------------------------------------------------------
-$filter = "ClipboardOccupied"
-$lastLine = ""
-
-Get-Content -Path $rustDeskLog -Tail 0 -Wait | ForEach-Object {
-    $line = $_
-    if ($line -ne $lastLine -and $line -match $filter) {
-        $lastLine = $line
-        Write-Host "$(Get-Date -Format 'HH:mm:ss.fff') RustDesk log error detected ($filter)"
-        $owner = Get-ClipboardOwnerInfo
-        Write-Host "$(Get-Date -Format 'HH:mm:ss.fff') Clipboard currently locked by window: $owner"
+        Write-Warning "$(Get-Date -Format 'HH:mm:ss.fff') Clipboard read failed: $($_.Exception.Message)"
     }
 
-    Test-Clipboard | Out-Null
-    Start-Sleep -Milliseconds 500
+    # Check clipboard lock
+    $owner = Get-ClipboardOwner
+    if ($owner) {
+        # Get all RustDesk processes
+        $rustDeskProcesses = Get-Process | Where-Object { $_.Name -eq "RustDesk" }
+
+        $matchingProcess = $rustDeskProcesses | Where-Object { $_.Id -eq $owner.PID }
+        if ($matchingProcess) {
+            Write-Host "$(Get-Date -Format 'HH:mm:ss.fff') Clipboard currently locked by window: $($owner.Name) | PID: $($owner.PID)"
+        } else {
+            Write-Host "$(Get-Date -Format 'HH:mm:ss.fff') Clipboard currently locked by unknown process PID $($owner.PID)"
+        }
+    }
+
+    # Check RustDesk processes
+    $allRustDesk = Get-Process | Where-Object { $_.Name -eq "RustDesk" }
+    if (-not $allRustDesk) {
+        Write-Warning "$(Get-Date -Format 'HH:mm:ss.fff') RustDesk process not found! Possible crash/restart."
+    } else {
+        foreach ($p in $allRustDesk) {
+            Write-Host "$(Get-Date -Format 'HH:mm:ss.fff') RustDesk process running: $($p.Name) | PID: $($p.Id)"
+        }
+    }
+
+    Start-Sleep -Seconds 1
 }
