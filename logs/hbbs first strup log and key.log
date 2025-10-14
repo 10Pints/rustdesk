@@ -1,0 +1,90 @@
+C:\rustdesk-server>hbbs.exe -k _
+[2025-10-12 08:15:49.358743 +08:00] INFO [src\common.rs:121] Private key comes from id_ed25519
+[2025-10-12 08:15:49.358825 +08:00] INFO [src\rendezvous_server.rs:1205] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-12 08:15:49.361992 +08:00] INFO [src\peer.rs:84] DB_URL=C:\Users\terry\AppData\Roaming\RustDesk\config\db_v2.sqlite3
+[2025-10-12 08:15:49.362197 +08:00] DEBUG [src\database.rs:58] MAX_DATABASE_CONNECTIONS=1
+[2025-10-12 08:15:49.382460 +08:00] DEBUG [<unnamed>:0] PRAGMA page_size = 4096; …; rows affected: 0, rows returned: 2, elapsed: 18.221ms
+
+PRAGMA page_size = 4096;
+PRAGMA locking_mode = NORMAL;
+PRAGMA journal_mode = WAL;
+PRAGMA foreign_keys = ON;
+PRAGMA synchronous = FULL;
+PRAGMA auto_vacuum = NONE;
+
+[2025-10-12 08:15:49.382908 +08:00] DEBUG [<unnamed>:0] create table if not …; rows affected: 0, rows returned: 0, elapsed: 62.700µs
+
+create table if not exists peer (
+  guid blob primary key not null,
+  id varchar(100) not null,
+  uuid blob not null,
+  pk blob not null,
+  created_at datetime not null default(current_timestamp),
+  user blob,
+  status tinyint,
+  note varchar(300),
+  info text not null
+) without rowid;
+create unique index if not exists index_peer_id on peer (id);
+create index if not exists index_peer_user on peer (user);
+create index if not exists index_peer_created_at on peer (created_at);
+create index if not exists index_peer_status on peer (status);
+
+[2025-10-12 08:15:49.382939 +08:00] INFO [src\rendezvous_server.rs:99] serial=0
+[2025-10-12 08:15:49.382956 +08:00] INFO [src\common.rs:45] rendezvous-servers=[]
+[2025-10-12 08:15:49.382960 +08:00] INFO [src\rendezvous_server.rs:101] Listening on tcp/udp :21116
+[2025-10-12 08:15:49.382962 +08:00] INFO [src\rendezvous_server.rs:102] Listening on tcp :21115, extra port for NAT test
+[2025-10-12 08:15:49.382965 +08:00] INFO [src\rendezvous_server.rs:103] Listening on websocket :21118
+[2025-10-12 08:15:49.385054 +08:00] DEBUG [libs\hbb_common\src\udp.rs:35] Receive buf size of udp [::]:21116: Ok(65536)
+[2025-10-12 08:15:49.385200 +08:00] DEBUG [src\rendezvous_server.rs:1311] listen on udp Some([::]:21116)
+[2025-10-12 08:15:49.385223 +08:00] INFO [src\rendezvous_server.rs:138] mask: None
+[2025-10-12 08:15:49.385227 +08:00] INFO [src\rendezvous_server.rs:139] local-ip: ""
+[2025-10-12 08:15:49.385258 +08:00] INFO [src\common.rs:45] relay-servers=[]
+[2025-10-12 08:15:49.385403 +08:00] DEBUG [src\rendezvous_server.rs:1323] listen on tcp Ok([::]:21116)
+[2025-10-12 08:15:49.385501 +08:00] DEBUG [src\rendezvous_server.rs:1323] listen on tcp Ok([::]:21115)
+[2025-10-12 08:15:49.385592 +08:00] DEBUG [src\rendezvous_server.rs:1323] listen on tcp Ok([::]:21118)
+[2025-10-12 08:15:49.385601 +08:00] INFO [src\rendezvous_server.rs:153] ALWAYS_USE_RELAY=N
+[2025-10-12 08:15:49.385642 +08:00] INFO [src\rendezvous_server.rs:185] Start
+[2025-10-12 08:15:49.385695 +08:00] DEBUG [libs\hbb_common\src\udp.rs:35] Receive buf size of udp [::]:0: Ok(65536)
+[2025-10-12 08:15:50.026252 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:49949, ws: false
+[2025-10-12 08:15:50.041725 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:49949 closed
+[2025-10-12 08:15:50.066609 +08:00] DEBUG [<unnamed>:0] select guid, id, uuid, …; rows affected: 0, rows returned: 0, elapsed: 105.200µs
+
+select
+  guid,
+  id,
+  uuid,
+  pk,
+  user,
+  status,
+  info
+from
+  peer
+where
+  id = ?
+
+[2025-10-12 08:15:50.066635 +08:00] INFO [src\peer.rs:102] update_pk 6986591 [::ffff:192.168.254.103]:54379 b"f5ac8968-aa5f-4a40-b2c0-961382702200" b"\x11\x80\xe7s\x12U\x1f]\xebP\xd2\xebcr\x06nrg\xdev\xe0\x04\x88\x9eT1\n\x16\x12X\x9c\x11"
+[2025-10-12 08:15:50.068205 +08:00] DEBUG [<unnamed>:0] insert into peer(guid, id, …; rows affected: 1, rows returned: 0, elapsed: 1.419ms
+
+insert into
+  peer(guid, id, uuid, pk, info)
+values
+(?, ?, ?, ?, ?)
+
+[2025-10-12 08:15:50.086235 +08:00] DEBUG [C:\Users\runneradmin\.cargo\registry\src\index.crates.io-6f17d22bba15001f\hyper-0.14.32\src\client\connect\dns.rs:122] resolving host="api.rustdesk.com"
+[2025-10-12 08:15:50.119290 +08:00] DEBUG [C:\Users\runneradmin\.cargo\registry\src\index.crates.io-6f17d22bba15001f\hyper-0.14.32\src\client\connect\http.rs:542] connecting to 49.12.46.241:443
+[2025-10-12 08:15:50.408555 +08:00] DEBUG [C:\Users\runneradmin\.cargo\registry\src\index.crates.io-6f17d22bba15001f\hyper-0.14.32\src\client\connect\http.rs:545] connected to 49.12.46.241:443
+[2025-10-12 08:15:51.003315 +08:00] DEBUG [C:\Users\runneradmin\.cargo\registry\src\index.crates.io-6f17d22bba15001f\hyper-0.14.32\src\proto\h1\io.rs:352] flushed 589 bytes
+[2025-10-12 08:15:51.296204 +08:00] DEBUG [C:\Users\runneradmin\.cargo\registry\src\index.crates.io-6f17d22bba15001f\hyper-0.14.32\src\proto\h1\io.rs:211] parsed 9 headers
+[2025-10-12 08:15:51.296217 +08:00] DEBUG [C:\Users\runneradmin\.cargo\registry\src\index.crates.io-6f17d22bba15001f\hyper-0.14.32\src\proto\h1\conn.rs:224] incoming body is content-length (73 bytes)
+[2025-10-12 08:15:51.296225 +08:00] DEBUG [C:\Users\runneradmin\.cargo\registry\src\index.crates.io-6f17d22bba15001f\hyper-0.14.32\src\proto\h1\conn.rs:300] incoming body completed
+[2025-10-12 08:15:51.296256 +08:00] DEBUG [C:\Users\runneradmin\.cargo\registry\src\index.crates.io-6f17d22bba15001f\hyper-0.14.32\src\client\pool.rs:380] pooling idle connection for ("https", api.rustdesk.com)
+
+
+
+
+
+
+
+
+
