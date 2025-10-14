@@ -1,10 +1,10 @@
-# DetectClipboardHog.ps1 version 1.25
-Write-Host "=== DetectClipboardHog.ps1 version 1.25 starting ==="
+# DetectClipboardHog.ps1 version 1.26
+Write-Host "=== DetectClipboardHog.ps1 version 1.26 starting ==="
 
 # --------------------------------------------------------------------
 # Win32 interop setup
 # --------------------------------------------------------------------
-$versionTag = "v1_25"
+$versionTag = "v1_26"
 $global:Win32TypeName = "Win32_$versionTag"
 $global:Win32Type = $null
 
@@ -68,6 +68,24 @@ $rustDeskLog = "$env:AppData\RustDesk\log\cm\RustDesk_rCURRENT.log"
 Write-Host "Watching RustDesk log for clipboard errors: $rustDeskLog"
 
 # --------------------------------------------------------------------
+# Identify PowerShell instances to ignore (those tailing RustDesk logs)
+# --------------------------------------------------------------------
+$ignorePIDs = @()
+try {
+    $ignorePIDs = Get-Process -Name "powershell" -ErrorAction SilentlyContinue |
+        Where-Object {
+            try { $_.Path -like "C:\rustdesk-server\*" } catch { $false }
+        } |
+        Select-Object -ExpandProperty Id -ErrorAction SilentlyContinue
+} catch {}
+
+if ($ignorePIDs.Count -gt 0) {
+    Write-Host "Ignoring PowerShell PIDs from C:\rustdesk-server: $($ignorePIDs -join ', ')"
+} else {
+    Write-Host "No PowerShell PIDs from C:\rustdesk-server found to ignore."
+}
+
+# --------------------------------------------------------------------
 # Function: Get clipboard lock info
 # --------------------------------------------------------------------
 function Get-ClipboardOwnerInfo {
@@ -91,6 +109,11 @@ function Get-ClipboardOwnerInfo {
 
         $proc = if ($procId -ne 0) { Get-Process -Id $procId -ErrorAction SilentlyContinue } else { $null }
         $procName = if ($proc) { $proc.ProcessName } else { "" }
+
+        # Check if this PID should be ignored
+        if ($ignorePIDs -contains $procId) {
+            return "IGNORED PowerShell (RustDesk tail) | PID: $procId | Process: $procName"
+        }
 
         return "$winText | PID: $procId | Process: $procName"
     } catch {
