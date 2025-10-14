@@ -1431,3 +1431,20 @@ where
 [2025-10-14 16:01:21.077194 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:65312, ws: false
 [2025-10-14 16:01:21.077716 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:65312 closed
 [2025-10-14 16:01:21.102987 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:62994 closed
+[2025-10-14 16:16:50.105829 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:55533, ws: false
+[2025-10-14 16:16:50.108080 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:53261 request from [::ffff:192.168.254.148]:55533
+[2025-10-14 16:16:50.109603 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:49446, ws: false
+[2025-10-14 16:16:50.110118 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:49446 closed
+[2025-10-14 16:16:50.126341 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:55533 closed
+[2025-10-14 16:17:11.396715 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:49717, ws: false
+[2025-10-14 16:17:11.407451 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:53261 request from [::ffff:192.168.254.148]:49717
+[2025-10-14 16:17:11.408985 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:49460, ws: false
+[2025-10-14 16:17:11.419140 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:49460 closed
+[2025-10-14 16:17:11.432883 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:49717 closed
+[2025-10-14 16:18:38.459954 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:62094, ws: false
+[2025-10-14 16:18:38.460925 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:62094 closed
+[2025-10-14 16:18:42.663931 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:52782, ws: false
+[2025-10-14 16:18:42.665172 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:53261 request from [::ffff:192.168.254.148]:52782
+[2025-10-14 16:18:42.665729 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:49586, ws: false
+[2025-10-14 16:18:42.691073 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:49586 closed
+[2025-10-14 16:18:42.710797 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:52782 closed
