@@ -27,18 +27,20 @@ public static class Win32Interop {
     try {
         Add-Type -TypeDefinition $win32Definition -ErrorAction Stop
         Write-Host "Win32 interop type $global:Win32Type loaded successfully."
+		$global:Win32TypeObject = [Win32Interop]  # store the type object
     } catch {
         Write-Warning "Win32 type could not be loaded: $($_.Exception.Message)"
     }
 } else {
     Write-Host "Win32 interop type $global:Win32Type already defined."
+	$global:Win32TypeObject = $null
 }
 
 # Function to check clipboard lock
 function Get-ClipboardOwner {
-    if (-not ([Type]::GetType($global:Win32Type))) {
-        Write-Warning "Unable to find type [$global:Win32Type]."
-        return $null
+    if (-not $global:Win32TypeObject) {
+    Write-Warning "Unable to find type [$global:Win32Type]."
+    return $null
     }
 
     try {
@@ -90,11 +92,12 @@ while ($true) {
     $allRustDesk = Get-Process | Where-Object { $_.Name -eq "RustDesk" }
     if (-not $allRustDesk) {
         Write-Warning "$(Get-Date -Format 'HH:mm:ss.fff') RustDesk process not found! Possible crash/restart."
-    } else {
-        foreach ($p in $allRustDesk) {
-            Write-Host "$(Get-Date -Format 'HH:mm:ss.fff') RustDesk process running: $($p.Name) | PID: $($p.Id)"
-        }
-    }
+    } 
+	
+	#else {
+    #   foreach ($p in $allRustDesk) {
+    #       Write-Host "$(Get-Date -Format 'HH:mm:ss.fff') RustDesk process running: $($p.Name) | PID: $($p.Id)"
+    #   }
 
-    Start-Sleep -Seconds 1
+    Start-Sleep -Seconds 1 # -esk_rCURRENT.log] [2025-10-1CURRENT.log] [2025-
 }

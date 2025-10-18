@@ -509,3 +509,1105 @@
 [2025-10-14 19:07:56.918923 +08:00] INFO [src\relay_server.rs:452] New relay request 9d7c14ec-0918-4518-b725-dfc19b7d093e from [::ffff:192.168.254.103]:53561
 [2025-10-14 19:07:56.992908 +08:00] INFO [src\relay_server.rs:436] Relayrequest 9d7c14ec-0918-4518-b725-dfc19b7d093e from [::ffff:192.168.254.148]:62301 got paired
 [2025-10-14 19:07:56.992943 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 19:30:20.706340 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:62301 closed
+[2025-10-14 19:30:57.965756 +08:00] INFO [src\relay_server.rs:452] New relay request daca726f-e693-4ea6-9a7e-1a56fec8a3d5 from [::ffff:192.168.254.103]:54454
+[2025-10-14 19:30:57.975738 +08:00] INFO [src\relay_server.rs:436] Relayrequest daca726f-e693-4ea6-9a7e-1a56fec8a3d5 from [::ffff:192.168.254.148]:59278 got paired
+[2025-10-14 19:30:57.975756 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 19:32:10.524229 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:59278 closed
+[2025-10-14 19:32:29.020770 +08:00] INFO [src\relay_server.rs:452] New relay request c4a7dcca-e24e-4cc4-93bd-6363a93ea59f from [::ffff:192.168.254.148]:52351
+[2025-10-14 19:32:29.026669 +08:00] INFO [src\relay_server.rs:436] Relayrequest c4a7dcca-e24e-4cc4-93bd-6363a93ea59f from [::ffff:192.168.254.103]:54510 got paired
+[2025-10-14 19:32:29.026690 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 19:34:25.003173 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.103]:54510 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 19:35:00.058761 +08:00] INFO [src\relay_server.rs:452] New relay request d090d638-99f1-4a9e-998c-ae93308cdc87 from [::ffff:192.168.254.103]:54575
+[2025-10-14 19:35:00.148339 +08:00] INFO [src\relay_server.rs:436] Relayrequest d090d638-99f1-4a9e-998c-ae93308cdc87 from [::ffff:192.168.254.148]:52068 got paired
+[2025-10-14 19:35:00.148365 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 19:38:46.102738 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:52068 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 19:39:01.196617 +08:00] INFO [src\relay_server.rs:452] New relay request 0538f146-1695-4531-abd8-7588ea444d55 from [::ffff:192.168.254.103]:54712
+[2025-10-14 19:39:01.280476 +08:00] INFO [src\relay_server.rs:436] Relayrequest 0538f146-1695-4531-abd8-7588ea444d55 from [::ffff:192.168.254.148]:51627 got paired
+[2025-10-14 19:39:01.280513 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 19:55:22.867697 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51627 closed
+[2025-10-14 19:56:02.299057 +08:00] INFO [src\relay_server.rs:452] New relay request 8add2013-9fc9-4157-a838-4383ec0c455a from [::ffff:192.168.254.103]:55315
+[2025-10-14 19:56:02.324520 +08:00] INFO [src\relay_server.rs:436] Relayrequest 8add2013-9fc9-4157-a838-4383ec0c455a from [::ffff:192.168.254.148]:51135 got paired
+[2025-10-14 19:56:02.324531 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 20:07:45.286679 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:51135 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 20:08:03.342013 +08:00] INFO [src\relay_server.rs:452] New relay request 9c056a3d-6658-42e6-862c-91a7b9d6f40e from [::ffff:192.168.254.148]:57013
+[2025-10-14 20:08:03.352259 +08:00] INFO [src\relay_server.rs:436] Relayrequest 9c056a3d-6658-42e6-862c-91a7b9d6f40e from [::ffff:192.168.254.103]:55706 got paired
+[2025-10-14 20:08:03.352272 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 20:08:35.789684 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.103]:55706 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 20:09:04.386318 +08:00] INFO [src\relay_server.rs:452] New relay request e77c26b0-f7f1-46b2-ab50-584d36903fd9 from [::ffff:192.168.254.148]:62305
+[2025-10-14 20:09:04.386931 +08:00] INFO [src\relay_server.rs:436] Relayrequest e77c26b0-f7f1-46b2-ab50-584d36903fd9 from [::ffff:192.168.254.103]:55736 got paired
+[2025-10-14 20:09:04.386951 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 20:13:05.346332 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:55736 closed
+[2025-10-14 20:13:35.445498 +08:00] INFO [src\relay_server.rs:452] New relay request d4acc12a-8e65-47cd-bd0c-454f7c5f7f12 from [::ffff:192.168.254.103]:55876
+[2025-10-14 20:13:35.512540 +08:00] INFO [src\relay_server.rs:436] Relayrequest d4acc12a-8e65-47cd-bd0c-454f7c5f7f12 from [::ffff:192.168.254.148]:53085 got paired
+[2025-10-14 20:13:35.512574 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 20:21:34.469330 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53085 closed
+[2025-10-14 20:22:06.539848 +08:00] INFO [src\relay_server.rs:452] New relay request f86c17db-af37-4690-8d52-e9c6d8b4af18 from [::ffff:192.168.254.103]:56145
+[2025-10-14 20:22:06.591050 +08:00] INFO [src\relay_server.rs:436] Relayrequest f86c17db-af37-4690-8d52-e9c6d8b4af18 from [::ffff:192.168.254.148]:51082 got paired
+[2025-10-14 20:22:06.591058 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 20:35:08.554408 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:51082 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 20:35:37.617270 +08:00] INFO [src\relay_server.rs:452] New relay request d1f36fe9-fb4c-45a7-bc1e-a0ed7fed1f92 from [::ffff:192.168.254.103]:56570
+[2025-10-14 20:35:37.705237 +08:00] INFO [src\relay_server.rs:436] Relayrequest d1f36fe9-fb4c-45a7-bc1e-a0ed7fed1f92 from [::ffff:192.168.254.148]:52706 got paired
+[2025-10-14 20:35:37.705245 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 20:41:06.000805 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:52706 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 20:41:07.017072 +08:00] INFO [src\relay_server.rs:452] New relay request e14944c6-af14-46aa-b8c0-24d6e7f4b660 from [::ffff:192.168.254.103]:56744
+[2025-10-14 20:41:07.339222 +08:00] INFO [src\relay_server.rs:436] Relayrequest e14944c6-af14-46aa-b8c0-24d6e7f4b660 from [::ffff:192.168.254.148]:58084 got paired
+[2025-10-14 20:41:07.339264 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 20:46:35.301404 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:58084 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 20:47:08.365334 +08:00] INFO [src\relay_server.rs:452] New relay request 09948b8c-5038-4cf0-9339-2ceca6a9fb6f from [::ffff:192.168.254.103]:56963
+[2025-10-14 20:47:08.373732 +08:00] INFO [src\relay_server.rs:436] Relayrequest 09948b8c-5038-4cf0-9339-2ceca6a9fb6f from [::ffff:192.168.254.148]:57172 got paired
+[2025-10-14 20:47:08.373740 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 20:47:54.340041 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:57172 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 20:48:09.426851 +08:00] INFO [src\relay_server.rs:452] New relay request 95b7268a-3890-4437-a9b1-7bb07d0f8ba7 from [::ffff:192.168.254.103]:57003
+[2025-10-14 20:48:09.486098 +08:00] INFO [src\relay_server.rs:436] Relayrequest 95b7268a-3890-4437-a9b1-7bb07d0f8ba7 from [::ffff:192.168.254.148]:52933 got paired
+[2025-10-14 20:48:09.486110 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 21:01:17.793125 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52933 closed
+[2025-10-14 21:01:18.845674 +08:00] INFO [src\relay_server.rs:452] New relay request 5975cbd6-4509-4783-ab43-8a6fc134e6f4 from [::ffff:192.168.254.103]:57436
+[2025-10-14 21:01:18.941607 +08:00] INFO [src\relay_server.rs:436] Relayrequest 5975cbd6-4509-4783-ab43-8a6fc134e6f4 from [::ffff:192.168.254.148]:53579 got paired
+[2025-10-14 21:01:18.941619 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 21:08:58.610575 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53579 closed
+[2025-10-14 21:09:19.945085 +08:00] INFO [src\relay_server.rs:452] New relay request d4a88503-0b2c-4fb0-bf22-8c4c556419c2 from [::ffff:192.168.254.103]:57672
+[2025-10-14 21:09:19.960776 +08:00] INFO [src\relay_server.rs:436] Relayrequest d4a88503-0b2c-4fb0-bf22-8c4c556419c2 from [::ffff:192.168.254.148]:59001 got paired
+[2025-10-14 21:09:19.960783 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 21:10:12.242716 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:59001 closed
+[2025-10-14 21:10:13.284313 +08:00] INFO [src\relay_server.rs:452] New relay request 97643615-9360-424f-91a4-35fff424fbdf from [::ffff:192.168.254.148]:61991
+[2025-10-14 21:10:13.290024 +08:00] INFO [src\relay_server.rs:436] Relayrequest 97643615-9360-424f-91a4-35fff424fbdf from [::ffff:192.168.254.103]:57701 got paired
+[2025-10-14 21:10:13.290039 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 21:10:47.584918 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.103]:57701 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 21:11:14.334134 +08:00] INFO [src\relay_server.rs:452] New relay request cec35803-2b45-4742-9311-170ab3565b77 from [::ffff:192.168.254.103]:57725
+[2025-10-14 21:11:14.347204 +08:00] INFO [src\relay_server.rs:436] Relayrequest cec35803-2b45-4742-9311-170ab3565b77 from [::ffff:192.168.254.148]:60272 got paired
+[2025-10-14 21:11:14.347223 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 21:24:22.003820 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:60272 closed
+[2025-10-14 21:24:45.361581 +08:00] INFO [src\relay_server.rs:452] New relay request b1cb57a9-de65-40e3-817f-18b821cdd5b3 from [::ffff:192.168.254.103]:58158
+[2025-10-14 21:24:45.382242 +08:00] INFO [src\relay_server.rs:436] Relayrequest b1cb57a9-de65-40e3-817f-18b821cdd5b3 from [::ffff:192.168.254.148]:64769 got paired
+[2025-10-14 21:24:45.382255 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 21:33:26.297678 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:64769 closed
+[2025-10-14 21:33:46.421377 +08:00] INFO [src\relay_server.rs:452] New relay request f8c2cf0d-6e36-48bd-998a-152ddb6efdfa from [::ffff:192.168.254.103]:58483
+[2025-10-14 21:33:46.487178 +08:00] INFO [src\relay_server.rs:436] Relayrequest f8c2cf0d-6e36-48bd-998a-152ddb6efdfa from [::ffff:192.168.254.148]:61258 got paired
+[2025-10-14 21:33:46.487212 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 21:34:21.771440 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:61258 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 21:34:47.509057 +08:00] INFO [src\relay_server.rs:452] New relay request 01e08fd7-e661-416b-810b-5315e71e0ec5 from [::ffff:192.168.254.103]:58515
+[2025-10-14 21:34:47.516453 +08:00] INFO [src\relay_server.rs:436] Relayrequest 01e08fd7-e661-416b-810b-5315e71e0ec5 from [::ffff:192.168.254.148]:50064 got paired
+[2025-10-14 21:34:47.516487 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 21:40:22.024125 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:50064 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 21:40:48.529776 +08:00] INFO [src\relay_server.rs:452] New relay request 051fd026-056a-4934-b77b-0861e3d4a478 from [::ffff:192.168.254.103]:58691
+[2025-10-14 21:40:48.752437 +08:00] INFO [src\relay_server.rs:436] Relayrequest 051fd026-056a-4934-b77b-0861e3d4a478 from [::ffff:192.168.254.148]:58015 got paired
+[2025-10-14 21:40:48.752480 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 21:57:10.159467 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:58015 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 21:57:49.776052 +08:00] INFO [src\relay_server.rs:452] New relay request 57036a14-cd61-4ca0-b28a-8acc8ec6e5ac from [::ffff:192.168.254.103]:59298
+[2025-10-14 21:57:49.834590 +08:00] INFO [src\relay_server.rs:436] Relayrequest 57036a14-cd61-4ca0-b28a-8acc8ec6e5ac from [::ffff:192.168.254.148]:62188 got paired
+[2025-10-14 21:57:49.834604 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 22:07:03.820361 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:62188 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 22:07:20.898807 +08:00] INFO [src\relay_server.rs:452] New relay request 80579aae-ecb1-4d1f-bf9a-42e7626eb60c from [::ffff:192.168.254.103]:59599
+[2025-10-14 22:07:21.020759 +08:00] INFO [src\relay_server.rs:436] Relayrequest 80579aae-ecb1-4d1f-bf9a-42e7626eb60c from [::ffff:192.168.254.148]:64987 got paired
+[2025-10-14 22:07:21.020773 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 22:12:50.362613 +08:00] INFO [src\relay_server.rs:452] New relay request 82a26528-4e48-4299-a708-5d0415533cad from [::ffff:192.168.254.148]:55731
+[2025-10-14 22:12:50.364874 +08:00] INFO [src\relay_server.rs:436] Relayrequest 82a26528-4e48-4299-a708-5d0415533cad from [::ffff:192.168.254.103]:59768 got paired
+[2025-10-14 22:12:50.364912 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 22:13:08.829160 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:64987 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-14 22:22:27.321327 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:59768 closed
+[2025-10-14 22:22:28.461601 +08:00] INFO [src\relay_server.rs:452] New relay request de5afec4-1225-4d8a-8714-d6546eecb167 from [::ffff:192.168.254.103]:60095
+[2025-10-14 22:22:28.472747 +08:00] INFO [src\relay_server.rs:436] Relayrequest de5afec4-1225-4d8a-8714-d6546eecb167 from [::ffff:192.168.254.148]:56310 got paired
+[2025-10-14 22:22:28.472790 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 22:22:42.090229 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56310 closed
+[2025-10-14 22:22:43.136178 +08:00] INFO [src\relay_server.rs:452] New relay request 2c8d7740-67df-4a98-8572-181ce21d55fc from [::ffff:192.168.254.103]:60108
+[2025-10-14 22:22:43.253960 +08:00] INFO [src\relay_server.rs:436] Relayrequest 2c8d7740-67df-4a98-8572-181ce21d55fc from [::ffff:192.168.254.148]:56315 got paired
+[2025-10-14 22:22:43.253971 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 22:22:43.978455 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56315 closed
+[2025-10-14 22:22:45.115764 +08:00] INFO [src\relay_server.rs:452] New relay request a628fb49-79f2-4fa8-b01d-ff3340682b06 from [::ffff:192.168.254.103]:60113
+[2025-10-14 22:22:45.394922 +08:00] INFO [src\relay_server.rs:436] Relayrequest a628fb49-79f2-4fa8-b01d-ff3340682b06 from [::ffff:192.168.254.148]:56319 got paired
+[2025-10-14 22:22:45.394934 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 22:22:49.021556 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56319 closed
+[2025-10-14 22:22:50.085772 +08:00] INFO [src\relay_server.rs:452] New relay request 5be28536-3b01-45d0-8a4e-004e61833990 from [::ffff:192.168.254.103]:60121
+[2025-10-14 22:22:50.309972 +08:00] INFO [src\relay_server.rs:436] Relayrequest 5be28536-3b01-45d0-8a4e-004e61833990 from [::ffff:192.168.254.148]:56323 got paired
+[2025-10-14 22:22:50.309984 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 22:22:54.087169 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56323 closed
+[2025-10-14 22:22:55.347307 +08:00] INFO [src\relay_server.rs:452] New relay request eec4fac0-ebe8-4064-ae58-8806c8382667 from [::ffff:192.168.254.103]:60129
+[2025-10-14 22:22:55.414036 +08:00] INFO [src\relay_server.rs:436] Relayrequest eec4fac0-ebe8-4064-ae58-8806c8382667 from [::ffff:192.168.254.148]:56327 got paired
+[2025-10-14 22:22:55.414046 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-14 22:22:59.149442 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56327 closed
+[2025-10-15 11:13:32.141846 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-15 11:13:32.143239 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-15 11:13:32.143283 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-15 11:13:32.143551 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-15 11:13:32.143558 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-15 11:13:32.143806 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-15 11:13:32.146274 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-15 11:13:32.146749 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-15 11:13:32.146756 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-15 11:13:32.146759 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-15 11:13:32.146762 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-15 11:13:51.592389 +08:00] INFO [src\relay_server.rs:452] New relay request 7adc6f97-1c12-44d1-bfab-ad61520245d9 from [::ffff:192.168.254.103]:49781
+[2025-10-15 11:13:51.603045 +08:00] INFO [src\relay_server.rs:436] Relayrequest 7adc6f97-1c12-44d1-bfab-ad61520245d9 from [::ffff:192.168.254.148]:53285 got paired
+[2025-10-15 11:13:51.603065 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 11:13:53.521288 +08:00] INFO [src\relay_server.rs:452] New relay request b5d66439-51eb-4116-bee6-efdc69f98156 from [::ffff:192.168.254.103]:49788
+[2025-10-15 11:13:53.750547 +08:00] INFO [src\relay_server.rs:436] Relayrequest b5d66439-51eb-4116-bee6-efdc69f98156 from [::ffff:192.168.254.148]:53291 got paired
+[2025-10-15 11:13:53.750585 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 11:14:23.758530 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53291 closed
+[2025-10-15 11:16:00.288360 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53285 closed
+[2025-10-15 11:16:01.707708 +08:00] INFO [src\relay_server.rs:452] New relay request e451b964-b8c3-4023-9054-eb38ec2e5603 from [::ffff:192.168.254.103]:50470
+[2025-10-15 11:16:01.862867 +08:00] INFO [src\relay_server.rs:436] Relayrequest e451b964-b8c3-4023-9054-eb38ec2e5603 from [::ffff:192.168.254.148]:57429 got paired
+[2025-10-15 11:16:01.862878 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 11:18:30.184611 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:57429 closed
+[2025-10-15 11:18:31.164755 +08:00] INFO [src\relay_server.rs:452] New relay request 3d68d6d1-98be-4e64-857e-f1d7e50134c7 from [::ffff:192.168.254.103]:50663
+[2025-10-15 11:18:31.174667 +08:00] INFO [src\relay_server.rs:436] Relayrequest 3d68d6d1-98be-4e64-857e-f1d7e50134c7 from [::ffff:192.168.254.148]:57405 got paired
+[2025-10-15 11:18:31.174677 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 11:20:33.293418 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:57405 closed
+[2025-10-15 11:20:34.655218 +08:00] INFO [src\relay_server.rs:452] New relay request f28f9500-f7af-477b-9f45-e9270c80ff57 from [::ffff:192.168.254.103]:50803
+[2025-10-15 11:20:34.738518 +08:00] INFO [src\relay_server.rs:436] Relayrequest f28f9500-f7af-477b-9f45-e9270c80ff57 from [::ffff:192.168.254.148]:52711 got paired
+[2025-10-15 11:20:34.738530 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 11:23:26.712376 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52711 closed
+[2025-10-15 11:23:27.369861 +08:00] INFO [src\relay_server.rs:452] New relay request 359abbb5-7cd0-4920-a932-af0c00925b8f from [::ffff:192.168.254.103]:50967
+[2025-10-15 11:23:27.488163 +08:00] INFO [src\relay_server.rs:436] Relayrequest 359abbb5-7cd0-4920-a932-af0c00925b8f from [::ffff:192.168.254.148]:52735 got paired
+[2025-10-15 11:23:27.488174 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 11:43:00.949690 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52735 closed
+[2025-10-15 11:43:28.570889 +08:00] INFO [src\relay_server.rs:452] New relay request ac47e141-1fb9-4291-afa1-9c54df3947f9 from [::ffff:192.168.254.103]:52033
+[2025-10-15 11:43:28.589677 +08:00] INFO [src\relay_server.rs:436] Relayrequest ac47e141-1fb9-4291-afa1-9c54df3947f9 from [::ffff:192.168.254.148]:60435 got paired
+[2025-10-15 11:43:28.589704 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 11:45:52.851119 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:60435 closed
+[2025-10-15 11:46:13.967669 +08:00] INFO [src\relay_server.rs:452] New relay request 85de32ff-698b-492b-8f00-19201fa0db24 from [::ffff:192.168.254.103]:52164
+[2025-10-15 11:46:14.110086 +08:00] INFO [src\relay_server.rs:436] Relayrequest 85de32ff-698b-492b-8f00-19201fa0db24 from [::ffff:192.168.254.148]:58382 got paired
+[2025-10-15 11:46:14.110116 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 11:50:00.169450 +08:00] INFO [src\relay_server.rs:452] New relay request d2471a1b-23e1-4e91-9df8-7bd85a86cea2 from [::ffff:192.168.254.103]:52348
+[2025-10-15 11:50:00.182225 +08:00] INFO [src\relay_server.rs:436] Relayrequest d2471a1b-23e1-4e91-9df8-7bd85a86cea2 from [::ffff:192.168.254.148]:58429 got paired
+[2025-10-15 11:50:00.182246 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 11:50:17.590054 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:58382 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-15 12:02:28.074623 +08:00] INFO [src\relay_server.rs:452] New relay request 58855632-eefb-4ffb-a33d-a19c9fe8ebc1 from [::ffff:192.168.254.103]:52882
+[2025-10-15 12:02:28.078491 +08:00] INFO [src\relay_server.rs:436] Relayrequest 58855632-eefb-4ffb-a33d-a19c9fe8ebc1 from [::ffff:192.168.254.148]:51237 got paired
+[2025-10-15 12:02:28.078516 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 12:02:36.257330 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58429 closed
+[2025-10-15 12:13:29.503979 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51237 closed
+[2025-10-15 12:13:30.516926 +08:00] INFO [src\relay_server.rs:452] New relay request 924ea10a-eea6-4bf5-a210-381ab7c8ad92 from [::ffff:192.168.254.103]:53383
+[2025-10-15 12:13:30.520481 +08:00] INFO [src\relay_server.rs:436] Relayrequest 924ea10a-eea6-4bf5-a210-381ab7c8ad92 from [::ffff:192.168.254.148]:51290 got paired
+[2025-10-15 12:13:30.520495 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 12:14:31.603903 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51290 closed
+[2025-10-15 12:14:37.080028 +08:00] INFO [src\relay_server.rs:452] New relay request 051103bc-1830-4f3b-9b1f-6cbb61dc18cc from [::ffff:192.168.254.103]:53442
+[2025-10-15 12:14:37.142144 +08:00] INFO [src\relay_server.rs:436] Relayrequest 051103bc-1830-4f3b-9b1f-6cbb61dc18cc from [::ffff:192.168.254.148]:55301 got paired
+[2025-10-15 12:14:37.142169 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 12:25:27.086802 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55301 closed
+[2025-10-15 12:25:28.405850 +08:00] INFO [src\relay_server.rs:452] New relay request 18dbe1bf-de5d-4a28-9262-e1ce78f07870 from [::ffff:192.168.254.103]:53893
+[2025-10-15 12:25:28.431038 +08:00] INFO [src\relay_server.rs:436] Relayrequest 18dbe1bf-de5d-4a28-9262-e1ce78f07870 from [::ffff:192.168.254.148]:65166 got paired
+[2025-10-15 12:25:28.431063 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 12:57:19.366638 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:65166 closed
+[2025-10-15 12:57:54.010981 +08:00] INFO [src\relay_server.rs:452] New relay request 35233461-167e-45d7-940a-8f33be062472 from [::ffff:192.168.254.103]:55128
+[2025-10-15 12:57:54.052303 +08:00] INFO [src\relay_server.rs:436] Relayrequest 35233461-167e-45d7-940a-8f33be062472 from [::ffff:192.168.254.148]:63831 got paired
+[2025-10-15 12:57:54.052347 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 13:12:22.037768 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63831 closed
+[2025-10-15 13:12:55.141529 +08:00] INFO [src\relay_server.rs:452] New relay request bf121f75-3c8e-4ce0-bf5e-08df49ed1d50 from [::ffff:192.168.254.103]:56328
+[2025-10-15 13:12:55.167220 +08:00] INFO [src\relay_server.rs:436] Relayrequest bf121f75-3c8e-4ce0-bf5e-08df49ed1d50 from [::ffff:192.168.254.148]:65111 got paired
+[2025-10-15 13:12:55.167244 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 13:32:56.162091 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:65111 closed
+[2025-10-15 13:33:26.282265 +08:00] INFO [src\relay_server.rs:452] New relay request cddf2614-94a1-4eab-aa37-e609632b8433 from [::ffff:192.168.254.103]:57080
+[2025-10-15 13:33:26.385341 +08:00] INFO [src\relay_server.rs:436] Relayrequest cddf2614-94a1-4eab-aa37-e609632b8433 from [::ffff:192.168.254.148]:52831 got paired
+[2025-10-15 13:33:26.385351 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 13:34:41.744567 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52831 closed
+[2025-10-15 13:34:42.788335 +08:00] INFO [src\relay_server.rs:452] New relay request 7cff58c5-bd61-4185-9f2d-94eb751ace7e from [::ffff:192.168.254.103]:57154
+[2025-10-15 13:34:42.793622 +08:00] INFO [src\relay_server.rs:436] Relayrequest 7cff58c5-bd61-4185-9f2d-94eb751ace7e from [::ffff:192.168.254.148]:52629 got paired
+[2025-10-15 13:34:42.793653 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 13:41:52.006027 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52629 closed
+[2025-10-15 13:42:18.606943 +08:00] INFO [src\relay_server.rs:452] New relay request 6ab8c360-9f48-49e8-a14f-3e40aa272d15 from [::ffff:192.168.254.103]:57443
+[2025-10-15 13:42:18.641376 +08:00] INFO [src\relay_server.rs:436] Relayrequest 6ab8c360-9f48-49e8-a14f-3e40aa272d15 from [::ffff:192.168.254.148]:49888 got paired
+[2025-10-15 13:42:18.641388 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 13:46:05.029830 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:49888 closed
+[2025-10-15 13:46:19.668619 +08:00] INFO [src\relay_server.rs:452] New relay request 54125a23-0e3e-4877-9ae8-41e3edca873d from [::ffff:192.168.254.148]:65053
+[2025-10-15 13:46:19.674240 +08:00] INFO [src\relay_server.rs:436] Relayrequest 54125a23-0e3e-4877-9ae8-41e3edca873d from [::ffff:192.168.254.103]:57576 got paired
+[2025-10-15 13:46:19.674282 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 13:54:15.766425 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:57576 closed
+[2025-10-15 13:54:17.043604 +08:00] INFO [src\relay_server.rs:452] New relay request 21bcf05c-1bad-40ac-8286-db796dc7a0eb from [::ffff:192.168.254.103]:57834
+[2025-10-15 13:54:17.055032 +08:00] INFO [src\relay_server.rs:436] Relayrequest 21bcf05c-1bad-40ac-8286-db796dc7a0eb from [::ffff:192.168.254.148]:50240 got paired
+[2025-10-15 13:54:17.055048 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 13:55:32.584618 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50240 closed
+[2025-10-15 13:55:48.146498 +08:00] INFO [src\relay_server.rs:452] New relay request 749e25e8-40f3-4dd6-8e0f-7abee6a6a2fc from [::ffff:192.168.254.103]:57877
+[2025-10-15 13:55:48.195589 +08:00] INFO [src\relay_server.rs:436] Relayrequest 749e25e8-40f3-4dd6-8e0f-7abee6a6a2fc from [::ffff:192.168.254.148]:59241 got paired
+[2025-10-15 13:55:48.195600 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 14:35:55.765867 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:59241 closed
+[2025-10-15 14:35:56.985686 +08:00] INFO [src\relay_server.rs:452] New relay request 2ed58a06-eb55-489b-9a9c-5939943510b2 from [::ffff:192.168.254.103]:59111
+[2025-10-15 14:35:57.071598 +08:00] INFO [src\relay_server.rs:436] Relayrequest 2ed58a06-eb55-489b-9a9c-5939943510b2 from [::ffff:192.168.254.148]:64456 got paired
+[2025-10-15 14:35:57.071621 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 14:39:27.037431 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:64456 closed
+[2025-10-15 14:39:28.199369 +08:00] INFO [src\relay_server.rs:452] New relay request 33ce85f6-2454-4f6e-a755-9333e7111033 from [::ffff:192.168.254.103]:59215
+[2025-10-15 14:39:28.212160 +08:00] INFO [src\relay_server.rs:436] Relayrequest 33ce85f6-2454-4f6e-a755-9333e7111033 from [::ffff:192.168.254.148]:53710 got paired
+[2025-10-15 14:39:28.212186 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 14:49:56.259491 +08:00] INFO [src\relay_server.rs:452] New relay request d9bfb224-6ff4-4b78-836d-23d49160246d from [::ffff:192.168.254.103]:59544
+[2025-10-15 14:49:56.269088 +08:00] INFO [src\relay_server.rs:436] Relayrequest d9bfb224-6ff4-4b78-836d-23d49160246d from [::ffff:192.168.254.148]:50661 got paired
+[2025-10-15 14:49:56.269113 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 14:50:06.228592 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53710 closed
+[2025-10-15 15:25:42.712873 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50661 closed
+[2025-10-15 15:25:43.938241 +08:00] INFO [src\relay_server.rs:452] New relay request db9441fa-b7b1-4372-9504-b13c85d5bd00 from [::ffff:192.168.254.103]:60617
+[2025-10-15 15:25:43.948159 +08:00] INFO [src\relay_server.rs:436] Relayrequest db9441fa-b7b1-4372-9504-b13c85d5bd00 from [::ffff:192.168.254.148]:56281 got paired
+[2025-10-15 15:25:43.948170 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 15:32:11.879570 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56281 closed
+[2025-10-15 15:32:13.134001 +08:00] INFO [src\relay_server.rs:452] New relay request 8c5ccb0e-3a66-4108-879b-8c1cb3ffb19e from [::ffff:192.168.254.148]:51237
+[2025-10-15 15:32:13.141509 +08:00] INFO [src\relay_server.rs:436] Relayrequest 8c5ccb0e-3a66-4108-879b-8c1cb3ffb19e from [::ffff:192.168.254.103]:60821 got paired
+[2025-10-15 15:32:13.141551 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 15:55:16.051569 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:60821 closed
+[2025-10-15 15:55:44.173998 +08:00] INFO [src\relay_server.rs:452] New relay request f09ef7d0-f486-4a7f-a75b-2e3ff6c8669e from [::ffff:192.168.254.103]:61548
+[2025-10-15 15:55:44.194339 +08:00] INFO [src\relay_server.rs:436] Relayrequest f09ef7d0-f486-4a7f-a75b-2e3ff6c8669e from [::ffff:192.168.254.148]:58404 got paired
+[2025-10-15 15:55:44.194351 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 16:13:45.882138 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58404 closed
+[2025-10-15 16:13:47.870730 +08:00] INFO [src\relay_server.rs:452] New relay request 0f954124-0edc-4109-8456-5e4571dc729b from [::ffff:192.168.254.103]:62106
+[2025-10-15 16:13:47.893099 +08:00] INFO [src\relay_server.rs:436] Relayrequest 0f954124-0edc-4109-8456-5e4571dc729b from [::ffff:192.168.254.148]:64573 got paired
+[2025-10-15 16:13:47.893106 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 16:35:24.927601 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:64573 closed
+[2025-10-15 16:35:26.167852 +08:00] INFO [src\relay_server.rs:452] New relay request 9d76bb3a-924b-49d8-a95e-c9b85b0e8faa from [::ffff:192.168.254.103]:62778
+[2025-10-15 16:35:26.234423 +08:00] INFO [src\relay_server.rs:436] Relayrequest 9d76bb3a-924b-49d8-a95e-c9b85b0e8faa from [::ffff:192.168.254.148]:58916 got paired
+[2025-10-15 16:35:26.234463 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 16:38:00.188563 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58916 closed
+[2025-10-15 16:38:20.342508 +08:00] INFO [src\relay_server.rs:452] New relay request 56e75972-e255-48e7-8e35-937b74435b06 from [::ffff:192.168.254.103]:62858
+[2025-10-15 16:38:20.412163 +08:00] INFO [src\relay_server.rs:436] Relayrequest 56e75972-e255-48e7-8e35-937b74435b06 from [::ffff:192.168.254.148]:58932 got paired
+[2025-10-15 16:38:20.412201 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 17:10:18.614231 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58932 closed
+[2025-10-15 17:10:19.738812 +08:00] INFO [src\relay_server.rs:452] New relay request bd2cd746-a070-4387-b7ce-b9b856a8f701 from [::ffff:192.168.254.148]:50577
+[2025-10-15 17:10:19.743757 +08:00] INFO [src\relay_server.rs:436] Relayrequest bd2cd746-a070-4387-b7ce-b9b856a8f701 from [::ffff:192.168.254.103]:63836 got paired
+[2025-10-15 17:10:19.743792 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 17:12:02.458015 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.103]:63836 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-15 17:12:03.658475 +08:00] INFO [src\relay_server.rs:452] New relay request e75efb87-aaa7-4d3e-a2f7-fa0267e632e1 from [::ffff:192.168.254.148]:50590
+[2025-10-15 17:12:03.662719 +08:00] INFO [src\relay_server.rs:436] Relayrequest e75efb87-aaa7-4d3e-a2f7-fa0267e632e1 from [::ffff:192.168.254.103]:63889 got paired
+[2025-10-15 17:12:03.662760 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 17:22:35.459175 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:63889 closed
+[2025-10-15 17:22:36.786534 +08:00] INFO [src\relay_server.rs:452] New relay request 0a53f07a-5e82-4f16-8a72-e8ee808f4c7d from [::ffff:192.168.254.148]:50177
+[2025-10-15 17:22:36.788561 +08:00] INFO [src\relay_server.rs:436] Relayrequest 0a53f07a-5e82-4f16-8a72-e8ee808f4c7d from [::ffff:192.168.254.103]:64228 got paired
+[2025-10-15 17:22:36.788596 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 17:23:15.453988 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:64228 closed
+[2025-10-15 17:23:16.604462 +08:00] INFO [src\relay_server.rs:452] New relay request 32302152-3c69-46bf-b98e-79619a686601 from [::ffff:192.168.254.148]:50185
+[2025-10-15 17:23:16.610936 +08:00] INFO [src\relay_server.rs:436] Relayrequest 32302152-3c69-46bf-b98e-79619a686601 from [::ffff:192.168.254.103]:64250 got paired
+[2025-10-15 17:23:16.610964 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 17:51:20.568404 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:64250 closed
+[2025-10-15 17:51:44.968007 +08:00] INFO [src\relay_server.rs:452] New relay request b8fdb3de-59bc-416f-92c0-8bd9d1edec8e from [::ffff:192.168.254.103]:65134
+[2025-10-15 17:51:44.977452 +08:00] INFO [src\relay_server.rs:436] Relayrequest b8fdb3de-59bc-416f-92c0-8bd9d1edec8e from [::ffff:192.168.254.148]:59830 got paired
+[2025-10-15 17:51:44.977466 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 22:20:40.178980 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:59830 closed
+[2025-10-15 22:21:15.747813 +08:00] INFO [src\relay_server.rs:452] New relay request 87c49b34-599e-418a-95fa-92af8ce722d4 from [::ffff:192.168.254.103]:56994
+[2025-10-15 22:21:15.825802 +08:00] INFO [src\relay_server.rs:436] Relayrequest 87c49b34-599e-418a-95fa-92af8ce722d4 from [::ffff:192.168.254.148]:53652 got paired
+[2025-10-15 22:21:15.825828 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 23:29:28.025175 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53652 closed
+[2025-10-15 23:29:29.041412 +08:00] INFO [src\relay_server.rs:452] New relay request cca47a49-b1b6-42de-989d-f97836865c45 from [::ffff:192.168.254.103]:59031
+[2025-10-15 23:29:29.070665 +08:00] INFO [src\relay_server.rs:436] Relayrequest cca47a49-b1b6-42de-989d-f97836865c45 from [::ffff:192.168.254.148]:63884 got paired
+[2025-10-15 23:29:29.070678 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 23:29:33.031834 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63884 closed
+[2025-10-15 23:29:34.109269 +08:00] INFO [src\relay_server.rs:452] New relay request 64215889-be0b-4440-b68c-48e6cee1b52f from [::ffff:192.168.254.103]:59039
+[2025-10-15 23:29:34.138450 +08:00] INFO [src\relay_server.rs:436] Relayrequest 64215889-be0b-4440-b68c-48e6cee1b52f from [::ffff:192.168.254.148]:63889 got paired
+[2025-10-15 23:29:34.138461 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 23:29:38.103999 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63889 closed
+[2025-10-15 23:29:39.152895 +08:00] INFO [src\relay_server.rs:452] New relay request 38e9c56e-744b-43a4-87bb-b27395e74dc3 from [::ffff:192.168.254.103]:59048
+[2025-10-15 23:29:39.361504 +08:00] INFO [src\relay_server.rs:436] Relayrequest 38e9c56e-744b-43a4-87bb-b27395e74dc3 from [::ffff:192.168.254.148]:63898 got paired
+[2025-10-15 23:29:39.361525 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 23:29:43.181010 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63898 closed
+[2025-10-15 23:29:44.248761 +08:00] INFO [src\relay_server.rs:452] New relay request 49da6368-6d30-4642-b8f6-b101eab35ced from [::ffff:192.168.254.103]:59057
+[2025-10-15 23:29:44.265629 +08:00] INFO [src\relay_server.rs:436] Relayrequest 49da6368-6d30-4642-b8f6-b101eab35ced from [::ffff:192.168.254.148]:63917 got paired
+[2025-10-15 23:29:44.265642 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-15 23:29:48.243760 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63917 closed
+[2025-10-16 05:23:23.989664 +08:00] INFO [src\relay_server.rs:452] New relay request b96098cc-a020-4b4c-a0f6-ffd14dce66e3 from [::ffff:192.168.254.103]:59212
+[2025-10-16 05:23:24.209056 +08:00] INFO [src\relay_server.rs:436] Relayrequest b96098cc-a020-4b4c-a0f6-ffd14dce66e3 from [::ffff:192.168.254.148]:61074 got paired
+[2025-10-16 05:23:24.209070 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:24:13.886016 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:61074 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-16 05:24:34.174850 +08:00] INFO [src\relay_server.rs:452] New relay request 08455fa6-57b7-4626-becd-1c8968a0b6d1 from [::ffff:192.168.254.103]:59439
+[2025-10-16 05:24:34.190189 +08:00] INFO [src\relay_server.rs:436] Relayrequest 08455fa6-57b7-4626-becd-1c8968a0b6d1 from [::ffff:192.168.254.148]:50620 got paired
+[2025-10-16 05:24:34.190215 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:29:04.171708 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50620 closed
+[2025-10-16 05:29:05.397598 +08:00] INFO [src\relay_server.rs:452] New relay request 16da8a35-de9e-4e5a-af46-012ed2ce0e60 from [::ffff:192.168.254.103]:59871
+[2025-10-16 05:29:05.473934 +08:00] INFO [src\relay_server.rs:436] Relayrequest 16da8a35-de9e-4e5a-af46-012ed2ce0e60 from [::ffff:192.168.254.148]:51887 got paired
+[2025-10-16 05:29:05.473946 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:30:18.994244 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51887 closed
+[2025-10-16 05:30:36.501606 +08:00] INFO [src\relay_server.rs:452] New relay request 8fbad81c-7b76-42bf-a635-9dbc3e116ad7 from [::ffff:192.168.254.148]:51899
+[2025-10-16 05:30:36.507641 +08:00] INFO [src\relay_server.rs:436] Relayrequest 8fbad81c-7b76-42bf-a635-9dbc3e116ad7 from [::ffff:192.168.254.103]:59916 got paired
+[2025-10-16 05:30:36.507654 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:32:00.816888 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:59916 closed
+[2025-10-16 05:32:02.046851 +08:00] INFO [src\relay_server.rs:452] New relay request 28df8de6-9bb9-4770-bbe2-f4a992cc564c from [::ffff:192.168.254.148]:51910
+[2025-10-16 05:32:02.059125 +08:00] INFO [src\relay_server.rs:436] Relayrequest 28df8de6-9bb9-4770-bbe2-f4a992cc564c from [::ffff:192.168.254.103]:59962 got paired
+[2025-10-16 05:32:02.059139 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:32:32.599173 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:59962 closed
+[2025-10-16 05:32:33.680155 +08:00] INFO [src\relay_server.rs:452] New relay request 596ce326-f3ab-4f6b-9ba5-9317af00653c from [::ffff:192.168.254.103]:59980
+[2025-10-16 05:32:33.752811 +08:00] INFO [src\relay_server.rs:436] Relayrequest 596ce326-f3ab-4f6b-9ba5-9317af00653c from [::ffff:192.168.254.148]:51919 got paired
+[2025-10-16 05:32:33.752824 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:39:32.113263 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51919 closed
+[2025-10-16 05:39:33.359067 +08:00] INFO [src\relay_server.rs:452] New relay request 2c2d3c37-6f39-4bdd-a719-ebe1713816d7 from [::ffff:192.168.254.103]:60509
+[2025-10-16 05:39:33.368076 +08:00] INFO [src\relay_server.rs:436] Relayrequest 2c2d3c37-6f39-4bdd-a719-ebe1713816d7 from [::ffff:192.168.254.148]:54524 got paired
+[2025-10-16 05:39:33.368094 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:48:53.379692 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:54524 closed
+[2025-10-16 05:48:54.640851 +08:00] INFO [src\relay_server.rs:452] New relay request c4e509bd-6843-4e14-b07a-e673ce5190d0 from [::ffff:192.168.254.148]:52160
+[2025-10-16 05:48:54.641941 +08:00] INFO [src\relay_server.rs:436] Relayrequest c4e509bd-6843-4e14-b07a-e673ce5190d0 from [::ffff:192.168.254.103]:60892 got paired
+[2025-10-16 05:48:54.641976 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:49:15.617246 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.103]:60892 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-16 05:49:26.401898 +08:00] INFO [src\relay_server.rs:452] New relay request c931b6ea-0573-40fd-be88-e9646d3b038a from [::ffff:192.168.254.103]:60912
+[2025-10-16 05:49:26.478374 +08:00] INFO [src\relay_server.rs:436] Relayrequest c931b6ea-0573-40fd-be88-e9646d3b038a from [::ffff:192.168.254.148]:64870 got paired
+[2025-10-16 05:49:26.478385 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:52:39.183859 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:64870 closed
+[2025-10-16 05:52:40.180435 +08:00] INFO [src\relay_server.rs:452] New relay request a03a62ed-e676-4b2f-8f8d-319003121bee from [::ffff:192.168.254.103]:61034
+[2025-10-16 05:52:40.194281 +08:00] INFO [src\relay_server.rs:436] Relayrequest a03a62ed-e676-4b2f-8f8d-319003121bee from [::ffff:192.168.254.148]:60090 got paired
+[2025-10-16 05:52:40.194296 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:56:47.036087 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:60090 closed
+[2025-10-16 05:56:48.026456 +08:00] INFO [src\relay_server.rs:452] New relay request 91c6bec1-e2df-4fd1-9d06-bc04a5c5b668 from [::ffff:192.168.254.148]:56644
+[2025-10-16 05:56:48.031989 +08:00] INFO [src\relay_server.rs:436] Relayrequest 91c6bec1-e2df-4fd1-9d06-bc04a5c5b668 from [::ffff:192.168.254.103]:61176 got paired
+[2025-10-16 05:56:48.032006 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:57:45.960933 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:61176 closed
+[2025-10-16 05:57:47.838736 +08:00] INFO [src\relay_server.rs:452] New relay request 0ef3c055-f3dd-4bd4-88fb-32cf842071cd from [::ffff:192.168.254.103]:61209
+[2025-10-16 05:57:47.847109 +08:00] INFO [src\relay_server.rs:436] Relayrequest 0ef3c055-f3dd-4bd4-88fb-32cf842071cd from [::ffff:192.168.254.148]:58527 got paired
+[2025-10-16 05:57:47.847151 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 05:58:25.918458 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58527 closed
+[2025-10-16 05:58:46.349629 +08:00] INFO [src\relay_server.rs:452] New relay request b7cedc50-be13-4090-bdc2-99b44b18a742 from [::ffff:192.168.254.103]:61235
+[2025-10-16 05:58:46.367892 +08:00] INFO [src\relay_server.rs:436] Relayrequest b7cedc50-be13-4090-bdc2-99b44b18a742 from [::ffff:192.168.254.148]:61469 got paired
+[2025-10-16 05:58:46.367902 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:01:57.764779 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:61469 closed
+[2025-10-16 06:01:58.985573 +08:00] INFO [src\relay_server.rs:452] New relay request d038f6d6-e788-41a2-9e1a-85d5f8d9db0f from [::ffff:192.168.254.103]:61354
+[2025-10-16 06:01:58.993042 +08:00] INFO [src\relay_server.rs:436] Relayrequest d038f6d6-e788-41a2-9e1a-85d5f8d9db0f from [::ffff:192.168.254.148]:52856 got paired
+[2025-10-16 06:01:58.993080 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:08:56.127090 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52856 closed
+[2025-10-16 06:09:06.339056 +08:00] INFO [src\relay_server.rs:452] New relay request 4beedc2f-1459-41f2-b3b0-a24941607f2d from [::ffff:192.168.254.103]:61581
+[2025-10-16 06:09:06.432603 +08:00] INFO [src\relay_server.rs:436] Relayrequest 4beedc2f-1459-41f2-b3b0-a24941607f2d from [::ffff:192.168.254.148]:62393 got paired
+[2025-10-16 06:09:06.432620 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:18:18.352864 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:62393 closed
+[2025-10-16 06:18:19.494656 +08:00] INFO [src\relay_server.rs:452] New relay request 9a166263-57e0-4a7e-a2e9-fa0c407bf280 from [::ffff:192.168.254.103]:61945
+[2025-10-16 06:18:19.503490 +08:00] INFO [src\relay_server.rs:436] Relayrequest 9a166263-57e0-4a7e-a2e9-fa0c407bf280 from [::ffff:192.168.254.148]:60377 got paired
+[2025-10-16 06:18:19.503501 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:21:59.486817 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:60377 closed
+[2025-10-16 06:22:19.970945 +08:00] INFO [src\relay_server.rs:452] New relay request 37114c1b-4bec-4d50-b147-28a4514f258d from [::ffff:192.168.254.103]:62157
+[2025-10-16 06:22:19.989215 +08:00] INFO [src\relay_server.rs:436] Relayrequest 37114c1b-4bec-4d50-b147-28a4514f258d from [::ffff:192.168.254.148]:55657 got paired
+[2025-10-16 06:22:19.989230 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:22:39.885025 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:55657 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-16 06:22:41.042955 +08:00] INFO [src\relay_server.rs:452] New relay request 8533ce47-3383-490e-aa62-d609aeeda29d from [::ffff:192.168.254.103]:62178
+[2025-10-16 06:22:41.051184 +08:00] INFO [src\relay_server.rs:436] Relayrequest 8533ce47-3383-490e-aa62-d609aeeda29d from [::ffff:192.168.254.148]:57974 got paired
+[2025-10-16 06:22:41.051201 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:29:57.004164 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:57974 closed
+[2025-10-16 06:30:00.022159 +08:00] INFO [src\relay_server.rs:452] New relay request f5db705d-6ef7-4d6b-a2e0-30d3cdcdf822 from [::ffff:192.168.254.103]:62582
+[2025-10-16 06:30:00.061560 +08:00] INFO [src\relay_server.rs:436] Relayrequest f5db705d-6ef7-4d6b-a2e0-30d3cdcdf822 from [::ffff:192.168.254.148]:61621 got paired
+[2025-10-16 06:30:00.061574 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:30:24.487266 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:61621 closed
+[2025-10-16 06:30:25.907102 +08:00] INFO [src\relay_server.rs:452] New relay request 0a802847-7aff-496a-8489-0c0a5055174b from [::ffff:192.168.254.148]:50751
+[2025-10-16 06:30:25.914114 +08:00] INFO [src\relay_server.rs:436] Relayrequest 0a802847-7aff-496a-8489-0c0a5055174b from [::ffff:192.168.254.103]:62630 got paired
+[2025-10-16 06:30:25.914125 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:31:48.635205 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:62630 closed
+[2025-10-16 06:31:49.553182 +08:00] INFO [src\relay_server.rs:452] New relay request 08a45608-ec65-4d91-9aca-f448fb54be5e from [::ffff:192.168.254.103]:62802
+[2025-10-16 06:31:49.614167 +08:00] INFO [src\relay_server.rs:436] Relayrequest 08a45608-ec65-4d91-9aca-f448fb54be5e from [::ffff:192.168.254.148]:52877 got paired
+[2025-10-16 06:31:49.614180 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:34:38.137054 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52877 closed
+[2025-10-16 06:34:39.572162 +08:00] INFO [src\relay_server.rs:452] New relay request 7b132875-b82c-4ce8-9fe1-3ad54fe872d9 from [::ffff:192.168.254.103]:62955
+[2025-10-16 06:34:39.592813 +08:00] INFO [src\relay_server.rs:436] Relayrequest 7b132875-b82c-4ce8-9fe1-3ad54fe872d9 from [::ffff:192.168.254.148]:54786 got paired
+[2025-10-16 06:34:39.592834 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:35:32.995079 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:54786 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-16 06:35:34.185715 +08:00] INFO [src\relay_server.rs:452] New relay request e2721195-9515-4f68-a335-3ab4fe84d07e from [::ffff:192.168.254.103]:63020
+[2025-10-16 06:35:34.418171 +08:00] INFO [src\relay_server.rs:436] Relayrequest e2721195-9515-4f68-a335-3ab4fe84d07e from [::ffff:192.168.254.148]:53161 got paired
+[2025-10-16 06:35:34.418183 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:38:52.674107 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53161 closed
+[2025-10-16 06:38:53.904542 +08:00] INFO [src\relay_server.rs:452] New relay request 20d51dc5-0091-486d-af42-c7ff9d619541 from [::ffff:192.168.254.103]:63182
+[2025-10-16 06:38:53.959578 +08:00] INFO [src\relay_server.rs:436] Relayrequest 20d51dc5-0091-486d-af42-c7ff9d619541 from [::ffff:192.168.254.148]:62717 got paired
+[2025-10-16 06:38:53.959589 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:43:19.876261 +08:00] INFO [src\relay_server.rs:452] New relay request d3902c84-4724-4380-8bda-b9b90656290b from [::ffff:192.168.254.103]:63353
+[2025-10-16 06:43:20.192544 +08:00] INFO [src\relay_server.rs:436] Relayrequest d3902c84-4724-4380-8bda-b9b90656290b from [::ffff:192.168.254.148]:59800 got paired
+[2025-10-16 06:43:20.192572 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:43:38.035647 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:62717 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-16 06:44:47.013871 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:59800 closed
+[2025-10-16 06:44:48.279540 +08:00] INFO [src\relay_server.rs:452] New relay request 7c1794c8-d8b7-4072-b8b6-950bb6ee4efa from [::ffff:192.168.254.103]:63402
+[2025-10-16 06:44:48.338126 +08:00] INFO [src\relay_server.rs:436] Relayrequest 7c1794c8-d8b7-4072-b8b6-950bb6ee4efa from [::ffff:192.168.254.148]:52515 got paired
+[2025-10-16 06:44:48.338137 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:47:47.282529 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52515 closed
+[2025-10-16 06:48:09.218403 +08:00] INFO [src\relay_server.rs:452] New relay request b5d09d8e-50eb-4a9f-a4e2-25354e4b997b from [::ffff:192.168.254.103]:63491
+[2025-10-16 06:48:09.241036 +08:00] INFO [src\relay_server.rs:436] Relayrequest b5d09d8e-50eb-4a9f-a4e2-25354e4b997b from [::ffff:192.168.254.148]:55725 got paired
+[2025-10-16 06:48:09.241044 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 06:48:53.048421 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55725 closed
+[2025-10-16 06:49:10.455687 +08:00] INFO [src\relay_server.rs:452] New relay request 284e154f-c77a-4a0a-957b-b7ebf19aac78 from [::ffff:192.168.254.103]:63537
+[2025-10-16 06:49:10.597648 +08:00] INFO [src\relay_server.rs:436] Relayrequest 284e154f-c77a-4a0a-957b-b7ebf19aac78 from [::ffff:192.168.254.148]:64894 got paired
+[2025-10-16 06:49:10.597659 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 07:05:33.800398 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:64894 closed
+[2025-10-16 07:05:34.311989 +08:00] INFO [src\relay_server.rs:452] New relay request f8646c5f-f33f-4810-8621-5e4429249ac0 from [::ffff:192.168.254.148]:56735
+[2025-10-16 07:05:34.316053 +08:00] INFO [src\relay_server.rs:436] Relayrequest f8646c5f-f33f-4810-8621-5e4429249ac0 from [::ffff:192.168.254.103]:64167 got paired
+[2025-10-16 07:05:34.316062 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 07:12:42.562595 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:64167 closed
+[2025-10-16 07:12:43.799808 +08:00] INFO [src\relay_server.rs:452] New relay request 76534041-1954-40fd-986c-2b6e6434b2cb from [::ffff:192.168.254.103]:64403
+[2025-10-16 07:12:43.818641 +08:00] INFO [src\relay_server.rs:436] Relayrequest 76534041-1954-40fd-986c-2b6e6434b2cb from [::ffff:192.168.254.148]:49330 got paired
+[2025-10-16 07:12:43.818689 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 07:18:57.894435 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:49330 closed
+[2025-10-16 07:18:59.518335 +08:00] INFO [src\relay_server.rs:452] New relay request 8298051a-8a24-4590-bc2d-14dca80881d8 from [::ffff:192.168.254.103]:64598
+[2025-10-16 07:18:59.998443 +08:00] INFO [src\relay_server.rs:436] Relayrequest 8298051a-8a24-4590-bc2d-14dca80881d8 from [::ffff:192.168.254.148]:51392 got paired
+[2025-10-16 07:18:59.998456 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 07:58:07.566818 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51392 closed
+[2025-10-16 07:58:10.212769 +08:00] INFO [src\relay_server.rs:452] New relay request afe0d061-3ec6-46b4-b625-10c6f737e288 from [::ffff:192.168.254.103]:49443
+[2025-10-16 07:58:10.245627 +08:00] INFO [src\relay_server.rs:436] Relayrequest afe0d061-3ec6-46b4-b625-10c6f737e288 from [::ffff:192.168.254.148]:50224 got paired
+[2025-10-16 07:58:10.245638 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:04:05.224976 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50224 closed
+[2025-10-16 08:04:06.985997 +08:00] INFO [src\relay_server.rs:452] New relay request 516ca46a-84f1-4955-b24d-5c08158db410 from [::ffff:192.168.254.103]:49822
+[2025-10-16 08:04:07.014496 +08:00] INFO [src\relay_server.rs:436] Relayrequest 516ca46a-84f1-4955-b24d-5c08158db410 from [::ffff:192.168.254.148]:55337 got paired
+[2025-10-16 08:04:07.014507 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:04:30.949722 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55337 closed
+[2025-10-16 08:04:51.308045 +08:00] INFO [src\relay_server.rs:452] New relay request c09ae45b-020d-4287-b8a6-5c731efd7ee0 from [::ffff:192.168.254.103]:49870
+[2025-10-16 08:04:51.342687 +08:00] INFO [src\relay_server.rs:436] Relayrequest c09ae45b-020d-4287-b8a6-5c731efd7ee0 from [::ffff:192.168.254.148]:51112 got paired
+[2025-10-16 08:04:51.342698 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:05:34.525418 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51112 closed
+[2025-10-16 08:05:35.794104 +08:00] INFO [src\relay_server.rs:452] New relay request 55dc5f1d-295e-48ed-80fd-338731c318ee from [::ffff:192.168.254.103]:49897
+[2025-10-16 08:05:35.887116 +08:00] INFO [src\relay_server.rs:436] Relayrequest 55dc5f1d-295e-48ed-80fd-338731c318ee from [::ffff:192.168.254.148]:51757 got paired
+[2025-10-16 08:05:35.887126 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:06:37.463374 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51757 closed
+[2025-10-16 08:06:38.692445 +08:00] INFO [src\relay_server.rs:452] New relay request 931eecee-53a8-4856-9169-bc797a599375 from [::ffff:192.168.254.103]:49961
+[2025-10-16 08:06:38.692685 +08:00] INFO [src\relay_server.rs:436] Relayrequest 931eecee-53a8-4856-9169-bc797a599375 from [::ffff:192.168.254.148]:51812 got paired
+[2025-10-16 08:06:38.692693 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:10:23.166977 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51812 closed
+[2025-10-16 08:10:24.660921 +08:00] INFO [src\relay_server.rs:452] New relay request 3da0512d-2785-468c-bd4c-3215c640144c from [::ffff:192.168.254.103]:50183
+[2025-10-16 08:10:24.756638 +08:00] INFO [src\relay_server.rs:436] Relayrequest 3da0512d-2785-468c-bd4c-3215c640144c from [::ffff:192.168.254.148]:55601 got paired
+[2025-10-16 08:10:24.756676 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:12:37.154193 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55601 closed
+[2025-10-16 08:12:38.383552 +08:00] INFO [src\relay_server.rs:452] New relay request 53a467f1-fb68-440b-a943-ba543f1cd74f from [::ffff:192.168.254.148]:63595
+[2025-10-16 08:12:38.387633 +08:00] INFO [src\relay_server.rs:436] Relayrequest 53a467f1-fb68-440b-a943-ba543f1cd74f from [::ffff:192.168.254.103]:50260 got paired
+[2025-10-16 08:12:38.387675 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:16:45.433457 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:50260 closed
+[2025-10-16 08:16:46.650592 +08:00] INFO [src\relay_server.rs:452] New relay request f877314c-5827-4f0c-bf6d-670de1cf0f58 from [::ffff:192.168.254.103]:50395
+[2025-10-16 08:16:46.650861 +08:00] INFO [src\relay_server.rs:436] Relayrequest f877314c-5827-4f0c-bf6d-670de1cf0f58 from [::ffff:192.168.254.148]:52519 got paired
+[2025-10-16 08:16:46.650872 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:19:02.010839 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52519 closed
+[2025-10-16 08:19:03.238114 +08:00] INFO [src\relay_server.rs:452] New relay request d4dcf268-4fcf-47cf-918e-7ea831f6cd07 from [::ffff:192.168.254.148]:50062
+[2025-10-16 08:19:03.241648 +08:00] INFO [src\relay_server.rs:436] Relayrequest d4dcf268-4fcf-47cf-918e-7ea831f6cd07 from [::ffff:192.168.254.103]:50473 got paired
+[2025-10-16 08:19:03.241688 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:19:35.209735 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:50473 closed
+[2025-10-16 08:19:35.906381 +08:00] INFO [src\relay_server.rs:452] New relay request a3df319c-36db-4e8f-bf46-095eb0346636 from [::ffff:192.168.254.103]:50502
+[2025-10-16 08:19:35.985943 +08:00] INFO [src\relay_server.rs:436] Relayrequest a3df319c-36db-4e8f-bf46-095eb0346636 from [::ffff:192.168.254.148]:64819 got paired
+[2025-10-16 08:19:35.985984 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:20:00.602358 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:64819 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-16 08:20:01.437558 +08:00] INFO [src\relay_server.rs:452] New relay request cd747dba-8794-4b58-9ad5-d2297655ca82 from [::ffff:192.168.254.103]:50518
+[2025-10-16 08:20:01.447012 +08:00] INFO [src\relay_server.rs:436] Relayrequest cd747dba-8794-4b58-9ad5-d2297655ca82 from [::ffff:192.168.254.148]:58763 got paired
+[2025-10-16 08:20:01.447046 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:21:19.668267 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58763 closed
+[2025-10-16 08:21:20.927972 +08:00] INFO [src\relay_server.rs:452] New relay request 3b5336c8-cd6f-4174-b38d-0f13adbbaa06 from [::ffff:192.168.254.103]:50559
+[2025-10-16 08:21:20.937141 +08:00] INFO [src\relay_server.rs:436] Relayrequest 3b5336c8-cd6f-4174-b38d-0f13adbbaa06 from [::ffff:192.168.254.148]:52330 got paired
+[2025-10-16 08:21:20.937149 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:28:53.700286 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52330 closed
+[2025-10-16 08:28:54.585310 +08:00] INFO [src\relay_server.rs:452] New relay request 0564135b-75b8-495e-bec6-614659db42e9 from [::ffff:192.168.254.103]:50839
+[2025-10-16 08:28:54.623512 +08:00] INFO [src\relay_server.rs:436] Relayrequest 0564135b-75b8-495e-bec6-614659db42e9 from [::ffff:192.168.254.148]:65373 got paired
+[2025-10-16 08:28:54.623545 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:29:37.582367 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:65373 closed
+[2025-10-16 08:29:38.340454 +08:00] INFO [src\relay_server.rs:452] New relay request b9267215-dbec-4b84-9fe7-5c19663a9938 from [::ffff:192.168.254.103]:50868
+[2025-10-16 08:29:38.349799 +08:00] INFO [src\relay_server.rs:436] Relayrequest b9267215-dbec-4b84-9fe7-5c19663a9938 from [::ffff:192.168.254.148]:51015 got paired
+[2025-10-16 08:29:38.349806 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:33:57.460161 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51015 closed
+[2025-10-16 08:33:58.722065 +08:00] INFO [src\relay_server.rs:452] New relay request 01d183a8-6799-497d-a8b3-68360ed32ebe from [::ffff:192.168.254.103]:51056
+[2025-10-16 08:33:58.800315 +08:00] INFO [src\relay_server.rs:436] Relayrequest 01d183a8-6799-497d-a8b3-68360ed32ebe from [::ffff:192.168.254.148]:53898 got paired
+[2025-10-16 08:33:58.800331 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:36:55.761382 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53898 closed
+[2025-10-16 08:36:57.014143 +08:00] INFO [src\relay_server.rs:452] New relay request 22183a59-d0f0-4139-bc5b-dd9e6dd70358 from [::ffff:192.168.254.148]:51270
+[2025-10-16 08:36:57.025159 +08:00] INFO [src\relay_server.rs:436] Relayrequest 22183a59-d0f0-4139-bc5b-dd9e6dd70358 from [::ffff:192.168.254.103]:51233 got paired
+[2025-10-16 08:36:57.025203 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:42:54.926510 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:51233 closed
+[2025-10-16 08:42:56.144785 +08:00] INFO [src\relay_server.rs:452] New relay request 186ad593-1c03-4634-b33c-60864ae76f13 from [::ffff:192.168.254.103]:51572
+[2025-10-16 08:42:56.195708 +08:00] INFO [src\relay_server.rs:436] Relayrequest 186ad593-1c03-4634-b33c-60864ae76f13 from [::ffff:192.168.254.148]:52925 got paired
+[2025-10-16 08:42:56.195748 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:43:44.201995 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52925 closed
+[2025-10-16 08:43:45.224486 +08:00] INFO [src\relay_server.rs:452] New relay request 885a797c-d942-4615-9e9b-4e874089918d from [::ffff:192.168.254.103]:51621
+[2025-10-16 08:43:45.231196 +08:00] INFO [src\relay_server.rs:436] Relayrequest 885a797c-d942-4615-9e9b-4e874089918d from [::ffff:192.168.254.148]:52735 got paired
+[2025-10-16 08:43:45.231208 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:43:49.218125 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52735 closed
+[2025-10-16 08:43:50.268029 +08:00] INFO [src\relay_server.rs:452] New relay request 02c2bcf5-8a7c-4d39-bccf-c02bfa1e26e9 from [::ffff:192.168.254.103]:51629
+[2025-10-16 08:43:50.277078 +08:00] INFO [src\relay_server.rs:436] Relayrequest 02c2bcf5-8a7c-4d39-bccf-c02bfa1e26e9 from [::ffff:192.168.254.148]:52739 got paired
+[2025-10-16 08:43:50.277086 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:43:54.294046 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52739 closed
+[2025-10-16 08:44:45.889198 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-16 08:44:45.889979 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-16 08:44:45.890022 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-16 08:44:45.890488 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-16 08:44:45.890495 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-16 08:44:45.890747 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-16 08:44:45.893926 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-16 08:44:45.894147 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-16 08:44:45.894152 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-16 08:44:45.894155 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-16 08:44:45.894158 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-16 08:49:09.979978 +08:00] INFO [src\relay_server.rs:452] New relay request db7c1622-d6c9-4e47-a00c-229ae7ab8719 from [::ffff:192.168.254.148]:55606
+[2025-10-16 08:49:09.985239 +08:00] INFO [src\relay_server.rs:436] Relayrequest db7c1622-d6c9-4e47-a00c-229ae7ab8719 from [::ffff:192.168.254.103]:50289 got paired
+[2025-10-16 08:49:09.985265 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 08:56:14.521628 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:50289 closed
+[2025-10-16 08:56:35.546398 +08:00] INFO [src\relay_server.rs:452] New relay request f94a653a-445c-4acf-b8fb-10926337e12b from [::ffff:192.168.254.103]:50713
+[2025-10-16 08:56:35.708676 +08:00] INFO [src\relay_server.rs:436] Relayrequest f94a653a-445c-4acf-b8fb-10926337e12b from [::ffff:192.168.254.148]:49674 got paired
+[2025-10-16 08:56:35.708687 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:04:02.657073 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:49674 closed
+[2025-10-16 09:04:25.719401 +08:00] INFO [src\relay_server.rs:452] New relay request b8405639-7885-4b39-a82c-1639c96513b2 from [::ffff:192.168.254.103]:50972
+[2025-10-16 09:04:25.830075 +08:00] INFO [src\relay_server.rs:436] Relayrequest b8405639-7885-4b39-a82c-1639c96513b2 from [::ffff:192.168.254.148]:54009 got paired
+[2025-10-16 09:04:25.830115 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:05:21.297324 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:54009 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-16 09:05:22.564538 +08:00] INFO [src\relay_server.rs:452] New relay request 48ae4132-46b9-419f-8001-e520053d93e0 from [::ffff:192.168.254.103]:51019
+[2025-10-16 09:05:22.571989 +08:00] INFO [src\relay_server.rs:436] Relayrequest 48ae4132-46b9-419f-8001-e520053d93e0 from [::ffff:192.168.254.148]:61086 got paired
+[2025-10-16 09:05:22.572024 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:05:51.779646 +08:00] INFO [src\relay_server.rs:452] New relay request c7d02d4a-83f8-4a07-a832-04a0b13098e3 from [::ffff:192.168.254.103]:51036
+[2025-10-16 09:05:51.788098 +08:00] INFO [src\relay_server.rs:436] Relayrequest c7d02d4a-83f8-4a07-a832-04a0b13098e3 from [::ffff:192.168.254.148]:57964 got paired
+[2025-10-16 09:05:51.788131 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:06:09.728786 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:61086 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-16 09:06:19.385690 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:57964 closed
+[2025-10-16 09:06:20.115668 +08:00] INFO [src\relay_server.rs:452] New relay request a4d13877-f0ea-4009-a2ef-fd17a87cc4fb from [::ffff:192.168.254.103]:51055
+[2025-10-16 09:06:20.125033 +08:00] INFO [src\relay_server.rs:436] Relayrequest a4d13877-f0ea-4009-a2ef-fd17a87cc4fb from [::ffff:192.168.254.148]:53100 got paired
+[2025-10-16 09:06:20.125071 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:12:41.832991 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53100 closed
+[2025-10-16 09:12:43.036086 +08:00] INFO [src\relay_server.rs:452] New relay request 918883cd-ff55-4eaf-a657-535940f73e61 from [::ffff:192.168.254.103]:51276
+[2025-10-16 09:12:43.047029 +08:00] INFO [src\relay_server.rs:436] Relayrequest 918883cd-ff55-4eaf-a657-535940f73e61 from [::ffff:192.168.254.148]:50419 got paired
+[2025-10-16 09:12:43.047039 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:16:47.858364 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50419 closed
+[2025-10-16 09:16:49.047769 +08:00] INFO [src\relay_server.rs:452] New relay request 34be07df-2736-4def-9891-5f29929366a8 from [::ffff:192.168.254.103]:51419
+[2025-10-16 09:16:49.156860 +08:00] INFO [src\relay_server.rs:436] Relayrequest 34be07df-2736-4def-9891-5f29929366a8 from [::ffff:192.168.254.148]:62662 got paired
+[2025-10-16 09:16:49.156877 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:18:53.158340 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:62662 closed
+[2025-10-16 09:18:54.443390 +08:00] INFO [src\relay_server.rs:452] New relay request f88d124c-22b2-4ea9-a448-8c3f70080403 from [::ffff:192.168.254.103]:51484
+[2025-10-16 09:18:54.483018 +08:00] INFO [src\relay_server.rs:436] Relayrequest f88d124c-22b2-4ea9-a448-8c3f70080403 from [::ffff:192.168.254.148]:56387 got paired
+[2025-10-16 09:18:54.483026 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:24:30.632609 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56387 closed
+[2025-10-16 09:24:31.928348 +08:00] INFO [src\relay_server.rs:452] New relay request 5a9e3535-8be9-49e2-9554-15e099329327 from [::ffff:192.168.254.148]:63039
+[2025-10-16 09:24:31.935877 +08:00] INFO [src\relay_server.rs:436] Relayrequest 5a9e3535-8be9-49e2-9554-15e099329327 from [::ffff:192.168.254.103]:51732 got paired
+[2025-10-16 09:24:31.935891 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:26:44.997867 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:51732 closed
+[2025-10-16 09:26:46.225061 +08:00] INFO [src\relay_server.rs:452] New relay request 8d084248-76a4-4a55-9b07-7fd282423dcf from [::ffff:192.168.254.103]:51819
+[2025-10-16 09:26:46.231357 +08:00] INFO [src\relay_server.rs:436] Relayrequest 8d084248-76a4-4a55-9b07-7fd282423dcf from [::ffff:192.168.254.148]:59506 got paired
+[2025-10-16 09:26:46.231368 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:30:18.524527 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:59506 closed
+[2025-10-16 09:30:47.250257 +08:00] INFO [src\relay_server.rs:452] New relay request a1042c0e-ec07-4987-97fa-29e16879b06a from [::ffff:192.168.254.103]:51938
+[2025-10-16 09:30:47.258169 +08:00] INFO [src\relay_server.rs:436] Relayrequest a1042c0e-ec07-4987-97fa-29e16879b06a from [::ffff:192.168.254.148]:59133 got paired
+[2025-10-16 09:30:47.258207 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:47:56.128029 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:59133 closed
+[2025-10-16 09:47:58.020285 +08:00] INFO [src\relay_server.rs:452] New relay request 228ae801-e09f-48cb-b38d-5df7a1f80540 from [::ffff:192.168.254.103]:52460
+[2025-10-16 09:47:58.029636 +08:00] INFO [src\relay_server.rs:436] Relayrequest 228ae801-e09f-48cb-b38d-5df7a1f80540 from [::ffff:192.168.254.148]:50094 got paired
+[2025-10-16 09:47:58.029670 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:49:24.447508 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50094 closed
+[2025-10-16 09:49:25.684244 +08:00] INFO [src\relay_server.rs:452] New relay request 8cfbfae4-3780-4bbc-b8fa-b12583d84ef0 from [::ffff:192.168.254.103]:52523
+[2025-10-16 09:49:25.694446 +08:00] INFO [src\relay_server.rs:436] Relayrequest 8cfbfae4-3780-4bbc-b8fa-b12583d84ef0 from [::ffff:192.168.254.148]:64343 got paired
+[2025-10-16 09:49:25.694455 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:51:14.888501 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:64343 closed
+[2025-10-16 09:51:56.713774 +08:00] INFO [src\relay_server.rs:452] New relay request 293a2beb-6edf-4553-bae1-12f6cce01c73 from [::ffff:192.168.254.103]:52585
+[2025-10-16 09:51:56.722234 +08:00] INFO [src\relay_server.rs:436] Relayrequest 293a2beb-6edf-4553-bae1-12f6cce01c73 from [::ffff:192.168.254.148]:61901 got paired
+[2025-10-16 09:51:56.722274 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 09:54:17.083203 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:61901 closed
+[2025-10-16 09:54:51.069642 +08:00] INFO [src\relay_server.rs:452] New relay request 11d2674f-49e8-4c3c-b809-2d8ef4d4621f from [::ffff:192.168.254.103]:52666
+[2025-10-16 09:54:51.263691 +08:00] INFO [src\relay_server.rs:436] Relayrequest 11d2674f-49e8-4c3c-b809-2d8ef4d4621f from [::ffff:192.168.254.148]:61887 got paired
+[2025-10-16 09:54:51.263725 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 10:00:07.895241 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:61887 closed
+[2025-10-16 10:00:22.400656 +08:00] INFO [src\relay_server.rs:452] New relay request 6e4e7bcb-c5ff-4b53-95b5-b5c80e303afb from [::ffff:192.168.254.103]:52824
+[2025-10-16 10:00:22.416001 +08:00] INFO [src\relay_server.rs:436] Relayrequest 6e4e7bcb-c5ff-4b53-95b5-b5c80e303afb from [::ffff:192.168.254.148]:55877 got paired
+[2025-10-16 10:00:22.416012 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 10:03:43.908779 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55877 closed
+[2025-10-16 10:03:44.783614 +08:00] INFO [src\relay_server.rs:452] New relay request 53ce5237-b1d4-447d-b502-a6d5de688aea from [::ffff:192.168.254.103]:52946
+[2025-10-16 10:03:44.787965 +08:00] INFO [src\relay_server.rs:436] Relayrequest 53ce5237-b1d4-447d-b502-a6d5de688aea from [::ffff:192.168.254.148]:49169 got paired
+[2025-10-16 10:03:44.787977 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 10:06:26.594326 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:49169 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-16 10:06:27.775240 +08:00] INFO [src\relay_server.rs:452] New relay request 8fccc739-4400-40ce-8b0d-95ce6e42adf0 from [::ffff:192.168.254.103]:53041
+[2025-10-16 10:06:27.782310 +08:00] INFO [src\relay_server.rs:436] Relayrequest 8fccc739-4400-40ce-8b0d-95ce6e42adf0 from [::ffff:192.168.254.148]:60521 got paired
+[2025-10-16 10:06:27.782346 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 10:11:03.340495 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:60521 closed
+[2025-10-16 10:11:26.034299 +08:00] INFO [src\relay_server.rs:452] New relay request 04bd5777-6e13-4060-aff2-22340318a968 from [::ffff:192.168.254.103]:53177
+[2025-10-16 10:11:26.044816 +08:00] INFO [src\relay_server.rs:436] Relayrequest 04bd5777-6e13-4060-aff2-22340318a968 from [::ffff:192.168.254.148]:53210 got paired
+[2025-10-16 10:11:26.044835 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 10:11:49.027529 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:53210 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-16 10:11:49.987092 +08:00] INFO [src\relay_server.rs:452] New relay request 169048eb-39e8-44f5-9165-3ab0391b40f7 from [::ffff:192.168.254.103]:53191
+[2025-10-16 10:11:50.008206 +08:00] INFO [src\relay_server.rs:436] Relayrequest 169048eb-39e8-44f5-9165-3ab0391b40f7 from [::ffff:192.168.254.148]:63262 got paired
+[2025-10-16 10:11:50.008219 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 10:16:32.434178 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63262 closed
+[2025-10-16 10:16:37.040274 +08:00] INFO [src\relay_server.rs:452] New relay request eaaf7c37-762a-47b3-8e26-6a0bd3604fd2 from [::ffff:192.168.254.148]:51624
+[2025-10-16 10:16:37.047761 +08:00] INFO [src\relay_server.rs:436] Relayrequest eaaf7c37-762a-47b3-8e26-6a0bd3604fd2 from [::ffff:192.168.254.103]:53326 got paired
+[2025-10-16 10:16:37.047772 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 10:32:13.624074 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:53326 closed
+[2025-10-16 10:32:14.809965 +08:00] INFO [src\relay_server.rs:452] New relay request 50637a11-816d-4ddb-9c9f-b4cfa15f915e from [::ffff:192.168.254.103]:53873
+[2025-10-16 10:32:14.864281 +08:00] INFO [src\relay_server.rs:436] Relayrequest 50637a11-816d-4ddb-9c9f-b4cfa15f915e from [::ffff:192.168.254.148]:60956 got paired
+[2025-10-16 10:32:14.864292 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 10:33:09.282623 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:60956 closed
+[2025-10-16 10:33:10.300536 +08:00] INFO [src\relay_server.rs:452] New relay request 0ca228ba-a8e4-4c0f-8696-c18626d458d4 from [::ffff:192.168.254.103]:53912
+[2025-10-16 10:33:10.308830 +08:00] INFO [src\relay_server.rs:436] Relayrequest 0ca228ba-a8e4-4c0f-8696-c18626d458d4 from [::ffff:192.168.254.148]:60116 got paired
+[2025-10-16 10:33:10.308841 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 10:33:14.298276 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:60116 closed
+[2025-10-16 10:33:15.365873 +08:00] INFO [src\relay_server.rs:452] New relay request 39e4b384-0997-493e-ad67-51842c544a9d from [::ffff:192.168.254.103]:53919
+[2025-10-16 10:33:15.383264 +08:00] INFO [src\relay_server.rs:436] Relayrequest 39e4b384-0997-493e-ad67-51842c544a9d from [::ffff:192.168.254.148]:63130 got paired
+[2025-10-16 10:33:15.383274 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 10:33:19.367219 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63130 closed
+[2025-10-16 10:33:20.587486 +08:00] INFO [src\relay_server.rs:452] New relay request c6bbe232-d36a-41a3-b752-d32195736d97 from [::ffff:192.168.254.103]:53928
+[2025-10-16 10:33:20.900571 +08:00] INFO [src\relay_server.rs:436] Relayrequest c6bbe232-d36a-41a3-b752-d32195736d97 from [::ffff:192.168.254.148]:63135 got paired
+[2025-10-16 10:33:20.900614 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 11:04:55.488654 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-16 11:04:55.490638 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-16 11:04:55.491277 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-16 11:04:55.491919 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-16 11:04:55.491928 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-16 11:04:55.492657 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-16 11:04:55.495833 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-16 11:04:55.496085 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-16 11:04:55.496091 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-16 11:04:55.496095 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-16 11:04:55.496098 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-16 11:05:29.994754 +08:00] INFO [src\relay_server.rs:452] New relay request f3a8996f-784f-4f0c-a979-d6e5f7c24b53 from [::ffff:192.168.254.103]:49717
+[2025-10-16 11:05:29.997582 +08:00] INFO [src\relay_server.rs:436] Relayrequest f3a8996f-784f-4f0c-a979-d6e5f7c24b53 from [::ffff:192.168.254.148]:56669 got paired
+[2025-10-16 11:05:29.997602 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 11:14:50.976119 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56669 closed
+[2025-10-16 11:14:52.080258 +08:00] INFO [src\relay_server.rs:452] New relay request 41864896-1818-49fc-8da3-adcfc6344b2f from [::ffff:192.168.254.103]:50773
+[2025-10-16 11:14:52.104373 +08:00] INFO [src\relay_server.rs:436] Relayrequest 41864896-1818-49fc-8da3-adcfc6344b2f from [::ffff:192.168.254.148]:56542 got paired
+[2025-10-16 11:14:52.104383 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 11:21:41.062484 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56542 closed
+[2025-10-16 11:21:53.156384 +08:00] INFO [src\relay_server.rs:452] New relay request c8badceb-a11c-4ad0-a3af-7c2972e901c1 from [::ffff:192.168.254.103]:51101
+[2025-10-16 11:21:53.175258 +08:00] INFO [src\relay_server.rs:436] Relayrequest c8badceb-a11c-4ad0-a3af-7c2972e901c1 from [::ffff:192.168.254.148]:51767 got paired
+[2025-10-16 11:21:53.175281 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 12:17:26.148369 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51767 closed
+[2025-10-16 12:17:54.140288 +08:00] INFO [src\relay_server.rs:452] New relay request 5ad5d871-fae0-4d98-b6ad-65d7d83ba86e from [::ffff:192.168.254.103]:52937
+[2025-10-16 12:17:54.163718 +08:00] INFO [src\relay_server.rs:436] Relayrequest 5ad5d871-fae0-4d98-b6ad-65d7d83ba86e from [::ffff:192.168.254.148]:53291 got paired
+[2025-10-16 12:17:54.163728 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 12:38:43.832017 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53291 closed
+[2025-10-16 12:39:25.144835 +08:00] INFO [src\relay_server.rs:452] New relay request 60ab30f2-47f6-4994-99ee-274e534272e6 from [::ffff:192.168.254.103]:53625
+[2025-10-16 12:39:25.153608 +08:00] INFO [src\relay_server.rs:436] Relayrequest 60ab30f2-47f6-4994-99ee-274e534272e6 from [::ffff:192.168.254.148]:63838 got paired
+[2025-10-16 12:39:25.153633 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 12:45:00.122954 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63838 closed
+[2025-10-16 12:45:26.172379 +08:00] INFO [src\relay_server.rs:452] New relay request 7131b3cc-0cff-4618-86a1-50981744c0e4 from [::ffff:192.168.254.148]:49841
+[2025-10-16 12:45:26.186359 +08:00] INFO [src\relay_server.rs:436] Relayrequest 7131b3cc-0cff-4618-86a1-50981744c0e4 from [::ffff:192.168.254.103]:53836 got paired
+[2025-10-16 12:45:26.186401 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 13:23:23.186683 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:53836 closed
+[2025-10-16 13:23:57.174333 +08:00] INFO [src\relay_server.rs:452] New relay request dab103e5-7a49-4810-9d89-cbad74f03c15 from [::ffff:192.168.254.148]:51076
+[2025-10-16 13:23:57.182096 +08:00] INFO [src\relay_server.rs:436] Relayrequest dab103e5-7a49-4810-9d89-cbad74f03c15 from [::ffff:192.168.254.103]:55084 got paired
+[2025-10-16 13:23:57.182104 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 14:53:28.055563 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:55084 closed
+[2025-10-16 14:53:57.377543 +08:00] INFO [src\relay_server.rs:452] New relay request efa3dd15-b250-4041-802a-064cdcd7ca0f from [::ffff:192.168.254.103]:58025
+[2025-10-16 14:53:57.387830 +08:00] INFO [src\relay_server.rs:436] Relayrequest efa3dd15-b250-4041-802a-064cdcd7ca0f from [::ffff:192.168.254.148]:60384 got paired
+[2025-10-16 14:53:57.387871 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 15:16:29.366547 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:60384 closed
+[2025-10-16 15:16:31.338894 +08:00] INFO [src\relay_server.rs:452] New relay request 96a1af3f-c49c-4f70-822a-997c72494795 from [::ffff:192.168.254.103]:58714
+[2025-10-16 15:16:31.347145 +08:00] INFO [src\relay_server.rs:436] Relayrequest 96a1af3f-c49c-4f70-822a-997c72494795 from [::ffff:192.168.254.148]:55594 got paired
+[2025-10-16 15:16:31.347186 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 15:18:38.554314 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55594 closed
+[2025-10-16 15:18:39.889505 +08:00] INFO [src\relay_server.rs:452] New relay request bf5baa1c-c10b-458a-b9ac-4cabd9086b39 from [::ffff:192.168.254.103]:58778
+[2025-10-16 15:18:39.896220 +08:00] INFO [src\relay_server.rs:436] Relayrequest bf5baa1c-c10b-458a-b9ac-4cabd9086b39 from [::ffff:192.168.254.148]:50454 got paired
+[2025-10-16 15:18:39.896259 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 15:37:59.272344 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50454 closed
+[2025-10-16 15:38:40.920379 +08:00] INFO [src\relay_server.rs:452] New relay request 066115e8-7bb4-4c74-92ca-71ea5640e9a4 from [::ffff:192.168.254.103]:59388
+[2025-10-16 15:38:40.929971 +08:00] INFO [src\relay_server.rs:436] Relayrequest 066115e8-7bb4-4c74-92ca-71ea5640e9a4 from [::ffff:192.168.254.148]:54365 got paired
+[2025-10-16 15:38:40.930013 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 15:49:14.997035 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:54365 closed
+[2025-10-16 15:49:41.994362 +08:00] INFO [src\relay_server.rs:452] New relay request 006654a5-9851-4408-9225-f308daf5f141 from [::ffff:192.168.254.103]:59704
+[2025-10-16 15:49:42.086579 +08:00] INFO [src\relay_server.rs:436] Relayrequest 006654a5-9851-4408-9225-f308daf5f141 from [::ffff:192.168.254.148]:53441 got paired
+[2025-10-16 15:49:42.086589 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 15:50:44.296274 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53441 closed
+[2025-10-16 15:50:46.203963 +08:00] INFO [src\relay_server.rs:452] New relay request ecd2ca1d-d3d9-488a-81e7-24a05b4a3407 from [::ffff:192.168.254.103]:59746
+[2025-10-16 15:50:46.223077 +08:00] INFO [src\relay_server.rs:436] Relayrequest ecd2ca1d-d3d9-488a-81e7-24a05b4a3407 from [::ffff:192.168.254.148]:56256 got paired
+[2025-10-16 15:50:46.223115 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 15:52:07.763716 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56256 closed
+[2025-10-16 15:52:08.895456 +08:00] INFO [src\relay_server.rs:452] New relay request 612a4b36-5aa3-4414-a80a-763a18ffc4a7 from [::ffff:192.168.254.103]:59789
+[2025-10-16 15:52:08.904481 +08:00] INFO [src\relay_server.rs:436] Relayrequest 612a4b36-5aa3-4414-a80a-763a18ffc4a7 from [::ffff:192.168.254.148]:62578 got paired
+[2025-10-16 15:52:08.904493 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-16 15:54:32.051628 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:62578 closed: Timeout
+[2025-10-17 12:38:54.709249 +08:00] INFO [src\relay_server.rs:452] New relay request 494588ae-8a39-41da-8659-2238b80d6e31 from [::ffff:192.168.254.103]:60426
+[2025-10-17 12:38:54.760685 +08:00] INFO [src\relay_server.rs:436] Relayrequest 494588ae-8a39-41da-8659-2238b80d6e31 from [::ffff:192.168.254.148]:56057 got paired
+[2025-10-17 12:38:54.760694 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 12:40:21.874262 +08:00] INFO [src\relay_server.rs:452] New relay request ed643260-5715-42ec-854d-efab13282eeb from [::ffff:192.168.254.148]:54162
+[2025-10-17 12:40:21.879765 +08:00] INFO [src\relay_server.rs:436] Relayrequest ed643260-5715-42ec-854d-efab13282eeb from [::ffff:192.168.254.103]:60489 got paired
+[2025-10-17 12:40:21.879773 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 12:40:58.389264 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:60489 closed
+[2025-10-17 12:40:59.433319 +08:00] INFO [src\relay_server.rs:452] New relay request ccdb9205-817e-42d4-b1e3-b7abcfe2d9d0 from [::ffff:192.168.254.103]:60517
+[2025-10-17 12:40:59.484417 +08:00] INFO [src\relay_server.rs:436] Relayrequest ccdb9205-817e-42d4-b1e3-b7abcfe2d9d0 from [::ffff:192.168.254.148]:64150 got paired
+[2025-10-17 12:40:59.484435 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 12:41:05.700460 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:64150 closed
+[2025-10-17 12:41:06.748773 +08:00] INFO [src\relay_server.rs:452] New relay request 0df8f3c4-5006-434a-b99b-50ea9cefd172 from [::ffff:192.168.254.103]:60524
+[2025-10-17 12:41:06.774463 +08:00] INFO [src\relay_server.rs:436] Relayrequest 0df8f3c4-5006-434a-b99b-50ea9cefd172 from [::ffff:192.168.254.148]:64156 got paired
+[2025-10-17 12:41:06.774471 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 12:41:12.948600 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:64156 closed
+[2025-10-17 12:41:14.046956 +08:00] INFO [src\relay_server.rs:452] New relay request 580f4d98-f36f-41a5-a30f-2f3f7728f6d1 from [::ffff:192.168.254.103]:60532
+[2025-10-17 12:41:14.094987 +08:00] INFO [src\relay_server.rs:436] Relayrequest 580f4d98-f36f-41a5-a30f-2f3f7728f6d1 from [::ffff:192.168.254.148]:52734 got paired
+[2025-10-17 12:41:14.094998 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 12:41:20.278404 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52734 closed
+[2025-10-17 12:41:21.511475 +08:00] INFO [src\relay_server.rs:452] New relay request e2a2e43f-c297-4d24-a78c-90beaeaf7a5c from [::ffff:192.168.254.103]:60539
+[2025-10-17 12:41:21.601274 +08:00] INFO [src\relay_server.rs:436] Relayrequest e2a2e43f-c297-4d24-a78c-90beaeaf7a5c from [::ffff:192.168.254.148]:52739 got paired
+[2025-10-17 12:41:21.601284 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 12:41:27.913697 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52739 closed
+[2025-10-17 12:41:28.996801 +08:00] INFO [src\relay_server.rs:452] New relay request 7a595577-0c0b-4afa-bbe2-50b3e7ac66af from [::ffff:192.168.254.103]:60546
+[2025-10-17 12:41:29.080571 +08:00] INFO [src\relay_server.rs:436] Relayrequest 7a595577-0c0b-4afa-bbe2-50b3e7ac66af from [::ffff:192.168.254.148]:52745 got paired
+[2025-10-17 12:41:29.080582 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 12:41:35.345007 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52745 closed
+[2025-10-17 12:41:36.470582 +08:00] INFO [src\relay_server.rs:452] New relay request 6d87c249-2fff-40dd-b33c-8a7aa941a872 from [::ffff:192.168.254.103]:60553
+[2025-10-17 12:41:36.552585 +08:00] INFO [src\relay_server.rs:436] Relayrequest 6d87c249-2fff-40dd-b33c-8a7aa941a872 from [::ffff:192.168.254.148]:52750 got paired
+[2025-10-17 12:41:36.552595 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 12:41:42.755494 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52750 closed
+[2025-10-17 12:41:43.833856 +08:00] INFO [src\relay_server.rs:452] New relay request 875759c2-8617-49d3-ab65-d275fddffb9f from [::ffff:192.168.254.148]:52756
+[2025-10-17 12:41:43.838434 +08:00] INFO [src\relay_server.rs:436] Relayrequest 875759c2-8617-49d3-ab65-d275fddffb9f from [::ffff:192.168.254.103]:60560 got paired
+[2025-10-17 12:41:43.838441 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 12:41:50.077143 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:60560 closed
+[2025-10-17 12:41:51.213151 +08:00] INFO [src\relay_server.rs:452] New relay request 50cbeb47-b6ff-4eb9-acc9-aa38e089d603 from [::ffff:192.168.254.148]:52762
+[2025-10-17 12:41:51.215025 +08:00] INFO [src\relay_server.rs:436] Relayrequest 50cbeb47-b6ff-4eb9-acc9-aa38e089d603 from [::ffff:192.168.254.103]:60567 got paired
+[2025-10-17 12:41:51.215032 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 12:42:25.657932 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-17 12:42:25.658953 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-17 12:42:25.659010 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-17 12:42:25.660090 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-17 12:42:25.660107 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-17 12:42:25.660423 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-17 12:42:25.665409 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-17 12:42:25.665655 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-17 12:42:25.665661 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-17 12:42:25.665665 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-17 12:42:25.665668 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-17 12:46:47.060942 +08:00] INFO [src\relay_server.rs:452] New relay request d926db7f-efca-4ed1-be8d-39732ebfbb2f from [::ffff:192.168.254.103]:49777
+[2025-10-17 12:46:47.064718 +08:00] INFO [src\relay_server.rs:436] Relayrequest d926db7f-efca-4ed1-be8d-39732ebfbb2f from [::ffff:192.168.254.148]:60198 got paired
+[2025-10-17 12:46:47.064794 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 13:10:26.112784 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:60198 closed
+[2025-10-17 13:10:48.142135 +08:00] INFO [src\relay_server.rs:452] New relay request ca3a774d-f996-45f3-8d0e-b049a12b6427 from [::ffff:192.168.254.103]:51125
+[2025-10-17 13:10:48.330489 +08:00] INFO [src\relay_server.rs:436] Relayrequest ca3a774d-f996-45f3-8d0e-b049a12b6427 from [::ffff:192.168.254.148]:55788 got paired
+[2025-10-17 13:10:48.330506 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 13:17:46.592606 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55788 closed
+[2025-10-17 13:18:19.425254 +08:00] INFO [src\relay_server.rs:452] New relay request a07fcc50-3936-4052-bb2c-ddb96e92d8bb from [::ffff:192.168.254.148]:56913
+[2025-10-17 13:18:19.430557 +08:00] INFO [src\relay_server.rs:436] Relayrequest a07fcc50-3936-4052-bb2c-ddb96e92d8bb from [::ffff:192.168.254.103]:51349 got paired
+[2025-10-17 13:18:19.430597 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 13:21:48.416165 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:51349 closed
+[2025-10-17 13:21:49.571157 +08:00] INFO [src\relay_server.rs:452] New relay request ebcb01f2-787d-4ffa-a0a1-e10c110cd0ac from [::ffff:192.168.254.103]:51478
+[2025-10-17 13:21:49.579272 +08:00] INFO [src\relay_server.rs:436] Relayrequest ebcb01f2-787d-4ffa-a0a1-e10c110cd0ac from [::ffff:192.168.254.148]:62795 got paired
+[2025-10-17 13:21:49.579306 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 13:29:48.060771 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:62795 closed
+[2025-10-17 13:30:10.203199 +08:00] INFO [src\relay_server.rs:452] New relay request cb206030-e2f5-493f-9160-41398d34125a from [::ffff:192.168.254.103]:51725
+[2025-10-17 13:30:10.270525 +08:00] INFO [src\relay_server.rs:436] Relayrequest cb206030-e2f5-493f-9160-41398d34125a from [::ffff:192.168.254.148]:55377 got paired
+[2025-10-17 13:30:10.270566 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 13:37:00.729506 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55377 closed
+[2025-10-17 13:37:02.906290 +08:00] INFO [src\relay_server.rs:452] New relay request 8f609ce4-1910-4f79-9200-4825dfae9875 from [::ffff:192.168.254.148]:53089
+[2025-10-17 13:37:02.913178 +08:00] INFO [src\relay_server.rs:436] Relayrequest 8f609ce4-1910-4f79-9200-4825dfae9875 from [::ffff:192.168.254.103]:51954 got paired
+[2025-10-17 13:37:02.913221 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 13:43:54.973511 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:51954 closed
+[2025-10-17 13:43:56.203517 +08:00] INFO [src\relay_server.rs:452] New relay request ed17af6f-cec3-443a-b348-3a39aaead4f5 from [::ffff:192.168.254.103]:52188
+[2025-10-17 13:43:56.211922 +08:00] INFO [src\relay_server.rs:436] Relayrequest ed17af6f-cec3-443a-b348-3a39aaead4f5 from [::ffff:192.168.254.148]:54102 got paired
+[2025-10-17 13:43:56.211962 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 13:49:43.661580 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:54102 closed
+[2025-10-17 13:49:44.516694 +08:00] INFO [src\relay_server.rs:452] New relay request 43752ca6-42d3-409f-9db2-8d28fa9c3d7d from [::ffff:192.168.254.103]:52384
+[2025-10-17 13:49:44.567740 +08:00] INFO [src\relay_server.rs:436] Relayrequest 43752ca6-42d3-409f-9db2-8d28fa9c3d7d from [::ffff:192.168.254.148]:56243 got paired
+[2025-10-17 13:49:44.567779 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 13:49:50.162041 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56243 closed
+[2025-10-17 13:49:54.203193 +08:00] INFO [src\relay_server.rs:452] New relay request f9646a8d-70b8-405d-be7d-1557dce1f8d5 from [::ffff:192.168.254.148]:56248
+[2025-10-17 13:49:54.219119 +08:00] INFO [src\relay_server.rs:436] Relayrequest f9646a8d-70b8-405d-be7d-1557dce1f8d5 from [::ffff:192.168.254.103]:52393 got paired
+[2025-10-17 13:49:54.219160 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 13:50:58.800266 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:52393 closed
+[2025-10-17 13:50:59.830043 +08:00] INFO [src\relay_server.rs:452] New relay request 189df03e-e1e4-4d51-ba2e-ccee1d29039a from [::ffff:192.168.254.148]:58421
+[2025-10-17 13:50:59.843748 +08:00] INFO [src\relay_server.rs:436] Relayrequest 189df03e-e1e4-4d51-ba2e-ccee1d29039a from [::ffff:192.168.254.103]:52430 got paired
+[2025-10-17 13:50:59.843788 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 14:14:14.814291 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:52430 closed
+[2025-10-17 14:14:15.932270 +08:00] INFO [src\relay_server.rs:452] New relay request 6f1010e4-b43f-4ebb-95eb-d49d95f34142 from [::ffff:192.168.254.148]:55057
+[2025-10-17 14:14:15.942273 +08:00] INFO [src\relay_server.rs:436] Relayrequest 6f1010e4-b43f-4ebb-95eb-d49d95f34142 from [::ffff:192.168.254.103]:53101 got paired
+[2025-10-17 14:14:15.942287 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 14:14:35.429040 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.103]:53101 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 14:31:11.811200 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-17 14:31:11.812665 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-17 14:31:11.812698 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-17 14:31:11.813262 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-17 14:31:11.813273 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-17 14:31:11.813557 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-17 14:31:11.816284 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-17 14:31:11.816306 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-17 14:31:11.816309 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-17 14:31:11.816311 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-17 14:31:11.816313 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-17 14:40:36.412424 +08:00] INFO [src\relay_server.rs:452] New relay request 763be55b-6951-43c2-969c-6049ac7b338b from [::ffff:192.168.254.103]:49792
+[2025-10-17 14:40:36.434014 +08:00] INFO [src\relay_server.rs:436] Relayrequest 763be55b-6951-43c2-969c-6049ac7b338b from [::ffff:192.168.254.148]:54234 got paired
+[2025-10-17 14:40:36.434043 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:00:18.844182 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:54234 closed
+[2025-10-17 15:00:19.877496 +08:00] INFO [src\relay_server.rs:452] New relay request 6228fbb1-af29-4825-a1d4-47ba79ea4637 from [::ffff:192.168.254.148]:49339
+[2025-10-17 15:00:19.882433 +08:00] INFO [src\relay_server.rs:436] Relayrequest 6228fbb1-af29-4825-a1d4-47ba79ea4637 from [::ffff:192.168.254.103]:50978 got paired
+[2025-10-17 15:00:19.882451 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:06:05.266359 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:50978 closed
+[2025-10-17 15:06:06.350662 +08:00] INFO [src\relay_server.rs:452] New relay request ebf94fcd-e40b-4ca9-b9ab-844b9d9d081a from [::ffff:192.168.254.103]:51491
+[2025-10-17 15:06:06.441848 +08:00] INFO [src\relay_server.rs:436] Relayrequest ebf94fcd-e40b-4ca9-b9ab-844b9d9d081a from [::ffff:192.168.254.148]:50860 got paired
+[2025-10-17 15:06:06.441875 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:06:10.299479 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50860 closed
+[2025-10-17 15:06:11.359959 +08:00] INFO [src\relay_server.rs:452] New relay request 955d1749-d866-452a-a102-5dcb6164ed08 from [::ffff:192.168.254.103]:51498
+[2025-10-17 15:06:11.459921 +08:00] INFO [src\relay_server.rs:436] Relayrequest 955d1749-d866-452a-a102-5dcb6164ed08 from [::ffff:192.168.254.148]:50864 got paired
+[2025-10-17 15:06:11.459946 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:06:15.337173 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50864 closed
+[2025-10-17 15:06:16.363850 +08:00] INFO [src\relay_server.rs:452] New relay request bdfefbb2-cdc5-467c-93f7-eaf2b32a26b0 from [::ffff:192.168.254.103]:51507
+[2025-10-17 15:06:16.490156 +08:00] INFO [src\relay_server.rs:436] Relayrequest bdfefbb2-cdc5-467c-93f7-eaf2b32a26b0 from [::ffff:192.168.254.148]:50868 got paired
+[2025-10-17 15:06:16.490168 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:06:48.938400 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-17 15:06:48.940181 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-17 15:06:48.940233 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-17 15:06:48.941167 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-17 15:06:48.941186 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-17 15:06:48.941942 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-17 15:06:48.945260 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-17 15:06:48.945674 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-17 15:06:48.945683 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-17 15:06:48.945686 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-17 15:06:48.945688 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-17 15:07:22.906727 +08:00] INFO [src\relay_server.rs:452] New relay request 2dc7805c-9285-4a99-bc39-2f1d165e500b from [::ffff:192.168.254.103]:49792
+[2025-10-17 15:07:23.180373 +08:00] INFO [src\relay_server.rs:436] Relayrequest 2dc7805c-9285-4a99-bc39-2f1d165e500b from [::ffff:192.168.254.148]:63956 got paired
+[2025-10-17 15:07:23.180404 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:09:17.422800 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63956 closed
+[2025-10-17 15:09:18.604494 +08:00] INFO [src\relay_server.rs:452] New relay request 9054b07f-f275-4ad1-b7f6-a707da1d0012 from [::ffff:192.168.254.103]:50395
+[2025-10-17 15:09:18.692829 +08:00] INFO [src\relay_server.rs:436] Relayrequest 9054b07f-f275-4ad1-b7f6-a707da1d0012 from [::ffff:192.168.254.148]:58646 got paired
+[2025-10-17 15:09:18.692841 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:09:44.982055 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58646 closed
+[2025-10-17 15:09:46.207609 +08:00] INFO [src\relay_server.rs:452] New relay request 55fe46f1-46ab-4b11-ab66-4442ae56a79b from [::ffff:192.168.254.103]:50593
+[2025-10-17 15:09:46.328662 +08:00] INFO [src\relay_server.rs:436] Relayrequest 55fe46f1-46ab-4b11-ab66-4442ae56a79b from [::ffff:192.168.254.148]:52830 got paired
+[2025-10-17 15:09:46.328674 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:12:28.187504 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:52830 closed
+[2025-10-17 15:12:29.439817 +08:00] INFO [src\relay_server.rs:452] New relay request 142a66a1-514c-4b2f-8846-165c3b8218a6 from [::ffff:192.168.254.148]:50689
+[2025-10-17 15:12:29.445005 +08:00] INFO [src\relay_server.rs:436] Relayrequest 142a66a1-514c-4b2f-8846-165c3b8218a6 from [::ffff:192.168.254.103]:51569 got paired
+[2025-10-17 15:12:29.445029 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:13:34.933661 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:51569 closed
+[2025-10-17 15:13:36.316508 +08:00] INFO [src\relay_server.rs:452] New relay request 3a3efaa9-e4db-4f12-b704-0064f5f36261 from [::ffff:192.168.254.103]:51983
+[2025-10-17 15:13:36.425417 +08:00] INFO [src\relay_server.rs:436] Relayrequest 3a3efaa9-e4db-4f12-b704-0064f5f36261 from [::ffff:192.168.254.148]:58982 got paired
+[2025-10-17 15:13:36.425426 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:14:39.381465 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58982 closed
+[2025-10-17 15:14:40.696898 +08:00] INFO [src\relay_server.rs:452] New relay request e296e278-b20e-4124-b7ef-3d0842146759 from [::ffff:192.168.254.103]:52501
+[2025-10-17 15:14:40.732202 +08:00] INFO [src\relay_server.rs:436] Relayrequest e296e278-b20e-4124-b7ef-3d0842146759 from [::ffff:192.168.254.148]:53184 got paired
+[2025-10-17 15:14:40.732214 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:15:03.276691 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53184 closed
+[2025-10-17 15:15:04.570084 +08:00] INFO [src\relay_server.rs:452] New relay request 6fa969c1-2753-40cd-88c2-a8e6f799880a from [::ffff:192.168.254.103]:52618
+[2025-10-17 15:15:04.592621 +08:00] INFO [src\relay_server.rs:436] Relayrequest 6fa969c1-2753-40cd-88c2-a8e6f799880a from [::ffff:192.168.254.148]:59154 got paired
+[2025-10-17 15:15:04.592631 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:16:36.476213 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:59154 closed
+[2025-10-17 15:16:37.915430 +08:00] INFO [src\relay_server.rs:452] New relay request 992ce787-760f-40c4-86a2-22c72f55a06a from [::ffff:192.168.254.103]:52668
+[2025-10-17 15:16:37.925377 +08:00] INFO [src\relay_server.rs:436] Relayrequest 992ce787-760f-40c4-86a2-22c72f55a06a from [::ffff:192.168.254.148]:58915 got paired
+[2025-10-17 15:16:37.925386 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:19:11.720309 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58915 closed
+[2025-10-17 15:19:13.197603 +08:00] INFO [src\relay_server.rs:452] New relay request 070b9aa2-df3b-4209-ad8e-da1f384b0d0d from [::ffff:192.168.254.103]:52887
+[2025-10-17 15:19:13.208106 +08:00] INFO [src\relay_server.rs:436] Relayrequest 070b9aa2-df3b-4209-ad8e-da1f384b0d0d from [::ffff:192.168.254.148]:64836 got paired
+[2025-10-17 15:19:13.208117 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:29:06.175747 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:64836 closed
+[2025-10-17 15:29:28.695842 +08:00] INFO [src\relay_server.rs:452] New relay request cc7b31d4-1796-4979-8d52-846d2223842c from [::ffff:192.168.254.103]:53387
+[2025-10-17 15:29:28.749878 +08:00] INFO [src\relay_server.rs:436] Relayrequest cc7b31d4-1796-4979-8d52-846d2223842c from [::ffff:192.168.254.148]:54636 got paired
+[2025-10-17 15:29:28.749915 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:33:41.924651 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:54636 closed
+[2025-10-17 15:33:43.070437 +08:00] INFO [src\relay_server.rs:452] New relay request 495190be-e4f6-4fe2-94d9-6eb718a3e5e2 from [::ffff:192.168.254.103]:53686
+[2025-10-17 15:33:43.085039 +08:00] INFO [src\relay_server.rs:436] Relayrequest 495190be-e4f6-4fe2-94d9-6eb718a3e5e2 from [::ffff:192.168.254.148]:55162 got paired
+[2025-10-17 15:33:43.085081 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:39:08.705056 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55162 closed
+[2025-10-17 15:39:09.769165 +08:00] INFO [src\relay_server.rs:452] New relay request a332c2a4-0bad-46ba-8c80-39d05589c613 from [::ffff:192.168.254.103]:53881
+[2025-10-17 15:39:09.778807 +08:00] INFO [src\relay_server.rs:436] Relayrequest a332c2a4-0bad-46ba-8c80-39d05589c613 from [::ffff:192.168.254.148]:50724 got paired
+[2025-10-17 15:39:09.778816 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:39:13.765025 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50724 closed
+[2025-10-17 15:39:14.805168 +08:00] INFO [src\relay_server.rs:452] New relay request 1e27b001-4c5c-45fd-b16a-2ac2a505191c from [::ffff:192.168.254.148]:50728
+[2025-10-17 15:39:14.809003 +08:00] INFO [src\relay_server.rs:436] Relayrequest 1e27b001-4c5c-45fd-b16a-2ac2a505191c from [::ffff:192.168.254.103]:53888 got paired
+[2025-10-17 15:39:14.809017 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:39:18.808697 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:53888 closed
+[2025-10-17 15:39:20.008771 +08:00] INFO [src\relay_server.rs:452] New relay request 2c7945dd-3783-431e-9c61-92eb22d5ddf6 from [::ffff:192.168.254.103]:53897
+[2025-10-17 15:39:20.389541 +08:00] INFO [src\relay_server.rs:436] Relayrequest 2c7945dd-3783-431e-9c61-92eb22d5ddf6 from [::ffff:192.168.254.148]:50733 got paired
+[2025-10-17 15:39:20.389554 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:39:52.728637 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-17 15:39:52.729885 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-17 15:39:52.729932 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-17 15:39:52.730251 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-17 15:39:52.730262 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-17 15:39:52.730633 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-17 15:39:52.733014 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-17 15:39:52.733289 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-17 15:39:52.733297 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-17 15:39:52.733300 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-17 15:39:52.733304 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-17 15:40:10.475149 +08:00] INFO [src\relay_server.rs:452] New relay request 22f6927d-ef2c-49e8-895d-7ecf3fa1fa16 from [::ffff:192.168.254.103]:49749
+[2025-10-17 15:40:10.487171 +08:00] INFO [src\relay_server.rs:436] Relayrequest 22f6927d-ef2c-49e8-895d-7ecf3fa1fa16 from [::ffff:192.168.254.148]:50749 got paired
+[2025-10-17 15:40:10.487195 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:40:11.942303 +08:00] INFO [src\relay_server.rs:452] New relay request 993e9d95-17b0-41b2-86bf-fe87452e1033 from [::ffff:192.168.254.103]:49757
+[2025-10-17 15:40:11.975349 +08:00] INFO [src\relay_server.rs:436] Relayrequest 993e9d95-17b0-41b2-86bf-fe87452e1033 from [::ffff:192.168.254.148]:50752 got paired
+[2025-10-17 15:40:11.975361 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:40:12.773548 +08:00] INFO [src\relay_server.rs:452] New relay request 175e2f81-fc5f-48a1-81d6-d65305ba9fda from [::ffff:192.168.254.148]:50754
+[2025-10-17 15:40:12.788161 +08:00] INFO [src\relay_server.rs:436] Relayrequest 175e2f81-fc5f-48a1-81d6-d65305ba9fda from [::ffff:192.168.254.103]:49765 got paired
+[2025-10-17 15:40:12.788180 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:40:41.985299 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50752 closed
+[2025-10-17 15:40:42.806749 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:49765 closed
+[2025-10-17 15:44:26.866473 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:50749 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 15:44:41.781141 +08:00] INFO [src\relay_server.rs:452] New relay request c13775f0-af8f-4143-9fdb-cf19245775e3 from [::ffff:192.168.254.148]:58032
+[2025-10-17 15:44:41.788516 +08:00] INFO [src\relay_server.rs:436] Relayrequest c13775f0-af8f-4143-9fdb-cf19245775e3 from [::ffff:192.168.254.103]:50397 got paired
+[2025-10-17 15:44:41.788544 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:45:44.871773 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:50397 closed
+[2025-10-17 15:45:46.911604 +08:00] INFO [src\relay_server.rs:452] New relay request 214a2965-bc6d-4a7e-a277-22e69bf2c1f4 from [::ffff:192.168.254.103]:50477
+[2025-10-17 15:45:47.045267 +08:00] INFO [src\relay_server.rs:436] Relayrequest 214a2965-bc6d-4a7e-a277-22e69bf2c1f4 from [::ffff:192.168.254.148]:62394 got paired
+[2025-10-17 15:45:47.045279 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:46:35.000073 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:62394 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 15:46:36.411434 +08:00] INFO [src\relay_server.rs:452] New relay request 34c70767-036e-4c1d-b7d3-11317e3cc151 from [::ffff:192.168.254.103]:50553
+[2025-10-17 15:46:36.492271 +08:00] INFO [src\relay_server.rs:436] Relayrequest 34c70767-036e-4c1d-b7d3-11317e3cc151 from [::ffff:192.168.254.148]:62673 got paired
+[2025-10-17 15:46:36.492285 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:47:22.876026 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:62673 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 15:47:24.101681 +08:00] INFO [src\relay_server.rs:452] New relay request 0a938b4c-9e21-476c-8927-e150f7abfcf5 from [::ffff:192.168.254.103]:50605
+[2025-10-17 15:47:24.212282 +08:00] INFO [src\relay_server.rs:436] Relayrequest 0a938b4c-9e21-476c-8927-e150f7abfcf5 from [::ffff:192.168.254.148]:50327 got paired
+[2025-10-17 15:47:24.212294 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:49:35.964609 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50327 closed
+[2025-10-17 15:49:37.205933 +08:00] INFO [src\relay_server.rs:452] New relay request f7e49250-9254-4705-abe2-0ec91d4d5dfb from [::ffff:192.168.254.103]:50724
+[2025-10-17 15:49:37.333849 +08:00] INFO [src\relay_server.rs:436] Relayrequest f7e49250-9254-4705-abe2-0ec91d4d5dfb from [::ffff:192.168.254.148]:50341 got paired
+[2025-10-17 15:49:37.333867 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:49:41.006114 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50341 closed
+[2025-10-17 15:49:42.168478 +08:00] INFO [src\relay_server.rs:452] New relay request 3cd1c1fb-c08f-44aa-adc8-bdbe10177bcc from [::ffff:192.168.254.103]:50732
+[2025-10-17 15:49:42.249666 +08:00] INFO [src\relay_server.rs:436] Relayrequest 3cd1c1fb-c08f-44aa-adc8-bdbe10177bcc from [::ffff:192.168.254.148]:50345 got paired
+[2025-10-17 15:49:42.249679 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:49:46.041167 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50345 closed
+[2025-10-17 15:49:47.259084 +08:00] INFO [src\relay_server.rs:452] New relay request 5e7d8480-7322-4f89-9f80-d6b6020758ae from [::ffff:192.168.254.103]:50741
+[2025-10-17 15:49:47.522923 +08:00] INFO [src\relay_server.rs:436] Relayrequest 5e7d8480-7322-4f89-9f80-d6b6020758ae from [::ffff:192.168.254.148]:50349 got paired
+[2025-10-17 15:49:47.522938 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:50:21.147971 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-17 15:50:21.148954 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-17 15:50:21.149012 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-17 15:50:21.149313 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-17 15:50:21.149322 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-17 15:50:21.149586 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-17 15:50:21.152756 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-17 15:50:21.153016 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-17 15:50:21.153022 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-17 15:50:21.153026 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-17 15:50:21.153029 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-17 15:50:43.093474 +08:00] INFO [src\relay_server.rs:452] New relay request 081f7155-9448-48a7-b65c-7a9391c05b2d from [::ffff:192.168.254.103]:49758
+[2025-10-17 15:50:43.442605 +08:00] INFO [src\relay_server.rs:436] Relayrequest 081f7155-9448-48a7-b65c-7a9391c05b2d from [::ffff:192.168.254.148]:50370 got paired
+[2025-10-17 15:50:43.442627 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:50:43.591025 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50370 closed
+[2025-10-17 15:50:44.120933 +08:00] INFO [src\relay_server.rs:452] New relay request 09dc1025-d4b4-4d3c-ba52-a387976cad7d from [::ffff:192.168.254.103]:49762
+[2025-10-17 15:50:44.261814 +08:00] INFO [src\relay_server.rs:436] Relayrequest 09dc1025-d4b4-4d3c-ba52-a387976cad7d from [::ffff:192.168.254.148]:50372 got paired
+[2025-10-17 15:50:44.261830 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:54:56.887982 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:50372 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 15:54:58.315705 +08:00] INFO [src\relay_server.rs:452] New relay request 97faf48f-f821-4112-95f5-0446eb0a6884 from [::ffff:192.168.254.148]:61309
+[2025-10-17 15:54:58.320330 +08:00] INFO [src\relay_server.rs:436] Relayrequest 97faf48f-f821-4112-95f5-0446eb0a6884 from [::ffff:192.168.254.103]:50283 got paired
+[2025-10-17 15:54:58.320350 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:56:19.806358 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:50283 closed
+[2025-10-17 15:56:21.206033 +08:00] INFO [src\relay_server.rs:452] New relay request 1266422d-dbba-4426-8f40-fbda7155a89b from [::ffff:192.168.254.103]:50405
+[2025-10-17 15:56:21.213244 +08:00] INFO [src\relay_server.rs:436] Relayrequest 1266422d-dbba-4426-8f40-fbda7155a89b from [::ffff:192.168.254.148]:50229 got paired
+[2025-10-17 15:56:21.213254 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 15:58:34.903689 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:50229 closed
+[2025-10-17 15:58:36.081068 +08:00] INFO [src\relay_server.rs:452] New relay request efec63f2-8491-4bb7-9272-a3b90cc7ccc1 from [::ffff:192.168.254.103]:50527
+[2025-10-17 15:58:36.090365 +08:00] INFO [src\relay_server.rs:436] Relayrequest efec63f2-8491-4bb7-9272-a3b90cc7ccc1 from [::ffff:192.168.254.148]:56764 got paired
+[2025-10-17 15:58:36.090377 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:01:05.530062 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:56764 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 16:01:06.788775 +08:00] INFO [src\relay_server.rs:452] New relay request fe2d4ca7-aa3c-41cf-a12c-a7e3caec3af5 from [::ffff:192.168.254.148]:62358
+[2025-10-17 16:01:06.789574 +08:00] INFO [src\relay_server.rs:436] Relayrequest fe2d4ca7-aa3c-41cf-a12c-a7e3caec3af5 from [::ffff:192.168.254.103]:50623 got paired
+[2025-10-17 16:01:06.789583 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:15:22.747995 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:50623 closed
+[2025-10-17 16:15:37.807909 +08:00] INFO [src\relay_server.rs:452] New relay request cf6d5057-77d4-424e-b064-b072997df9bf from [::ffff:192.168.254.103]:51169
+[2025-10-17 16:15:37.865927 +08:00] INFO [src\relay_server.rs:436] Relayrequest cf6d5057-77d4-424e-b064-b072997df9bf from [::ffff:192.168.254.148]:63001 got paired
+[2025-10-17 16:15:37.865939 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:21:08.979473 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63001 closed
+[2025-10-17 16:21:10.212455 +08:00] INFO [src\relay_server.rs:452] New relay request 31c8a988-74dc-4d4f-bdea-5fd407f84f92 from [::ffff:192.168.254.103]:51349
+[2025-10-17 16:21:10.259099 +08:00] INFO [src\relay_server.rs:436] Relayrequest 31c8a988-74dc-4d4f-bdea-5fd407f84f92 from [::ffff:192.168.254.148]:62375 got paired
+[2025-10-17 16:21:10.259109 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:45:16.396222 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:62375 closed
+[2025-10-17 16:45:17.646072 +08:00] INFO [src\relay_server.rs:452] New relay request 3ce78576-fa74-4d5c-9c0d-93ccc581a526 from [::ffff:192.168.254.103]:52099
+[2025-10-17 16:45:17.694491 +08:00] INFO [src\relay_server.rs:436] Relayrequest 3ce78576-fa74-4d5c-9c0d-93ccc581a526 from [::ffff:192.168.254.148]:61453 got paired
+[2025-10-17 16:45:17.694503 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:49:51.838096 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:61453 closed
+[2025-10-17 16:49:53.166759 +08:00] INFO [src\relay_server.rs:452] New relay request c0795017-2fd9-4c57-80dc-e18884a2b234 from [::ffff:192.168.254.103]:52256
+[2025-10-17 16:49:53.250660 +08:00] INFO [src\relay_server.rs:436] Relayrequest c0795017-2fd9-4c57-80dc-e18884a2b234 from [::ffff:192.168.254.148]:56488 got paired
+[2025-10-17 16:49:53.250678 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:52:26.468823 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:56488 closed
+[2025-10-17 16:52:27.665805 +08:00] INFO [src\relay_server.rs:452] New relay request 612498e9-fd90-40d3-b9b8-956220d49274 from [::ffff:192.168.254.103]:52410
+[2025-10-17 16:52:27.689537 +08:00] INFO [src\relay_server.rs:436] Relayrequest 612498e9-fd90-40d3-b9b8-956220d49274 from [::ffff:192.168.254.148]:53091 got paired
+[2025-10-17 16:52:27.689548 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:52:50.239940 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:53091 closed
+[2025-10-17 16:52:51.317972 +08:00] INFO [src\relay_server.rs:452] New relay request 3094662a-a548-49f3-ac96-047b4f7ad224 from [::ffff:192.168.254.103]:52431
+[2025-10-17 16:52:51.398683 +08:00] INFO [src\relay_server.rs:436] Relayrequest 3094662a-a548-49f3-ac96-047b4f7ad224 from [::ffff:192.168.254.148]:59517 got paired
+[2025-10-17 16:52:51.398694 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:52:55.293418 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:59517 closed
+[2025-10-17 16:52:56.373671 +08:00] INFO [src\relay_server.rs:452] New relay request 7fd971ed-5316-4e70-9aca-3975b076f6f5 from [::ffff:192.168.254.103]:52438
+[2025-10-17 16:52:56.422532 +08:00] INFO [src\relay_server.rs:436] Relayrequest 7fd971ed-5316-4e70-9aca-3975b076f6f5 from [::ffff:192.168.254.148]:61705 got paired
+[2025-10-17 16:52:56.422541 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:53:00.332839 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:61705 closed
+[2025-10-17 16:53:01.564294 +08:00] INFO [src\relay_server.rs:452] New relay request 77309668-2ecd-427f-ac4b-dc84ca4b8ab3 from [::ffff:192.168.254.103]:52445
+[2025-10-17 16:53:01.728924 +08:00] INFO [src\relay_server.rs:436] Relayrequest 77309668-2ecd-427f-ac4b-dc84ca4b8ab3 from [::ffff:192.168.254.148]:61709 got paired
+[2025-10-17 16:53:01.728935 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:53:33.019272 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-17 16:53:33.020812 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-17 16:53:33.020868 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-17 16:53:33.021219 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-17 16:53:33.021232 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-17 16:53:33.021495 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-17 16:53:33.024593 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-17 16:53:33.024889 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-17 16:53:33.024900 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-17 16:53:33.024904 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-17 16:53:33.024906 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-17 16:53:51.952422 +08:00] INFO [src\relay_server.rs:452] New relay request 72727d98-158e-4e43-805a-e229948067d1 from [::ffff:192.168.254.103]:49757
+[2025-10-17 16:53:52.344286 +08:00] INFO [src\relay_server.rs:436] Relayrequest 72727d98-158e-4e43-805a-e229948067d1 from [::ffff:192.168.254.148]:57524 got paired
+[2025-10-17 16:53:52.344308 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:54:15.659491 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:57524 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 16:54:37.330284 +08:00] INFO [src\relay_server.rs:452] New relay request 497a1036-6f5c-4923-9c4d-03d6d7d9b38f from [::ffff:192.168.254.103]:49834
+[2025-10-17 16:54:37.566655 +08:00] INFO [src\relay_server.rs:436] Relayrequest 497a1036-6f5c-4923-9c4d-03d6d7d9b38f from [::ffff:192.168.254.148]:54406 got paired
+[2025-10-17 16:54:37.566667 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 16:56:20.099063 +08:00] INFO [src\relay_server.rs:452] New relay request 238cbf5f-66b6-43bc-9592-996aba33cdc9 from [::ffff:192.168.254.103]:50215
+[2025-10-17 16:56:20.117337 +08:00] INFO [src\relay_server.rs:436] Relayrequest 238cbf5f-66b6-43bc-9592-996aba33cdc9 from [::ffff:192.168.254.148]:51626 got paired
+[2025-10-17 16:56:20.117348 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 17:00:18.102723 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:51626 closed
+[2025-10-17 17:00:19.426402 +08:00] INFO [src\relay_server.rs:452] New relay request ce6a026c-e904-4f23-8721-58e47b66fce3 from [::ffff:192.168.254.103]:50519
+[2025-10-17 17:00:19.523329 +08:00] INFO [src\relay_server.rs:436] Relayrequest ce6a026c-e904-4f23-8721-58e47b66fce3 from [::ffff:192.168.254.148]:55029 got paired
+[2025-10-17 17:00:19.523339 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 17:01:17.114230 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:54406 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 17:04:34.328755 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55029 closed
+[2025-10-17 17:04:35.761144 +08:00] INFO [src\relay_server.rs:452] New relay request b44a5e50-21e3-458c-941a-27cedb525a54 from [::ffff:192.168.254.103]:50702
+[2025-10-17 17:04:35.887552 +08:00] INFO [src\relay_server.rs:436] Relayrequest b44a5e50-21e3-458c-941a-27cedb525a54 from [::ffff:192.168.254.148]:49675 got paired
+[2025-10-17 17:04:35.887563 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 17:05:26.133369 +08:00] INFO [src\relay_server.rs:452] New relay request a32881bb-e0b4-4538-9b42-cac5680ada4f from [::ffff:192.168.254.103]:50743
+[2025-10-17 17:05:26.268278 +08:00] INFO [src\relay_server.rs:436] Relayrequest a32881bb-e0b4-4538-9b42-cac5680ada4f from [::ffff:192.168.254.148]:63084 got paired
+[2025-10-17 17:05:26.268289 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 17:05:44.218334 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:49675 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 17:08:38.888342 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63084 closed
+[2025-10-17 17:08:40.124533 +08:00] INFO [src\relay_server.rs:452] New relay request 35cff260-c43a-4a0d-bf38-a05c4ed51fbe from [::ffff:192.168.254.103]:50872
+[2025-10-17 17:08:40.158683 +08:00] INFO [src\relay_server.rs:436] Relayrequest 35cff260-c43a-4a0d-bf38-a05c4ed51fbe from [::ffff:192.168.254.148]:55307 got paired
+[2025-10-17 17:08:40.158700 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 17:08:43.963675 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:55307 closed
+[2025-10-17 17:09:23.822064 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-17 17:09:23.823547 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-17 17:09:23.823596 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-17 17:09:23.824057 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-17 17:09:23.824066 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-17 17:09:23.824401 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-17 17:09:23.835230 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-17 17:09:23.835673 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-17 17:09:23.835679 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-17 17:09:23.835682 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-17 17:09:23.835685 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-17 17:11:03.205748 +08:00] INFO [src\relay_server.rs:452] New relay request 00c3e31f-bf24-4e5c-a6a2-67e25e21dc86 from [::ffff:192.168.254.103]:49936
+[2025-10-17 17:11:03.438908 +08:00] INFO [src\relay_server.rs:436] Relayrequest 00c3e31f-bf24-4e5c-a6a2-67e25e21dc86 from [::ffff:192.168.254.148]:63298 got paired
+[2025-10-17 17:11:03.438937 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 17:15:25.966104 +08:00] INFO [src\relay_server.rs:452] New relay request 1a11c1e2-136c-4ded-bcf1-ec16c5f8dad7 from [::ffff:192.168.254.103]:50356
+[2025-10-17 17:15:26.033582 +08:00] INFO [src\relay_server.rs:436] Relayrequest 1a11c1e2-136c-4ded-bcf1-ec16c5f8dad7 from [::ffff:192.168.254.148]:62119 got paired
+[2025-10-17 17:15:26.033611 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 17:15:45.003480 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:63298 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 17:21:02.439260 +08:00] INFO [src\relay_server.rs:452] New relay request f38c3ee3-bc17-41eb-83bd-5e2c37462173 from [::ffff:192.168.254.103]:50616
+[2025-10-17 17:21:02.776688 +08:00] INFO [src\relay_server.rs:436] Relayrequest f38c3ee3-bc17-41eb-83bd-5e2c37462173 from [::ffff:192.168.254.148]:49892 got paired
+[2025-10-17 17:21:02.776704 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-17 17:21:25.922749 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:62119 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-17 17:26:52.778700 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:49892 closed
+[2025-10-17 17:26:54.097536 +08:00] INFO [src\relay_server.rs:452] New relay request be3d0b23-b294-4619-af5a-771d5190a1ad from [::ffff:192.168.254.103]:50820
+[2025-10-17 17:26:54.105810 +08:00] INFO [src\relay_server.rs:436] Relayrequest be3d0b23-b294-4619-af5a-771d5190a1ad from [::ffff:192.168.254.148]:65223 got paired
+[2025-10-17 17:26:54.105851 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 13:51:11.066165 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:65223 closed: Timeout
+[2025-10-18 13:57:26.295269 +08:00] INFO [src\relay_server.rs:452] New relay request a030b2ed-6bbb-42cb-bada-8b123be485ad from [::ffff:192.168.254.103]:52158
+[2025-10-18 13:57:26.305386 +08:00] INFO [src\relay_server.rs:436] Relayrequest a030b2ed-6bbb-42cb-bada-8b123be485ad from [::ffff:192.168.254.148]:57067 got paired
+[2025-10-18 13:57:26.305422 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:00:22.508392 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:57067 closed
+[2025-10-18 14:00:24.717252 +08:00] INFO [src\relay_server.rs:452] New relay request b206c71e-acf7-4149-8b47-8377f2980767 from [::ffff:192.168.254.103]:52281
+[2025-10-18 14:00:24.728888 +08:00] INFO [src\relay_server.rs:436] Relayrequest b206c71e-acf7-4149-8b47-8377f2980767 from [::ffff:192.168.254.148]:58698 got paired
+[2025-10-18 14:00:24.728898 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:07:45.421296 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58698 closed
+[2025-10-18 14:07:46.685283 +08:00] INFO [src\relay_server.rs:452] New relay request 0aa24cf2-3f77-4d18-bc60-9f8400e9caea from [::ffff:192.168.254.103]:52509
+[2025-10-18 14:07:46.701765 +08:00] INFO [src\relay_server.rs:436] Relayrequest 0aa24cf2-3f77-4d18-bc60-9f8400e9caea from [::ffff:192.168.254.148]:63729 got paired
+[2025-10-18 14:07:46.701788 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:13:57.316987 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:63729 closed
+[2025-10-18 14:13:58.543297 +08:00] INFO [src\relay_server.rs:452] New relay request 76c8e27e-588f-4223-aebd-b4a6a72803e9 from [::ffff:192.168.254.103]:52721
+[2025-10-18 14:13:58.608312 +08:00] INFO [src\relay_server.rs:436] Relayrequest 76c8e27e-588f-4223-aebd-b4a6a72803e9 from [::ffff:192.168.254.148]:60088 got paired
+[2025-10-18 14:13:58.608326 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:20:08.275212 +08:00] INFO [src\relay_server.rs:446] Relay of [::ffff:192.168.254.148]:60088 closed: An existing connection was forcibly closed by the remote host. (os error 10054)
+[2025-10-18 14:20:10.200763 +08:00] INFO [src\relay_server.rs:452] New relay request 2df58a7b-97e2-47cc-b85b-8c3084d96eca from [::ffff:192.168.254.103]:52925
+[2025-10-18 14:20:10.230654 +08:00] INFO [src\relay_server.rs:436] Relayrequest 2df58a7b-97e2-47cc-b85b-8c3084d96eca from [::ffff:192.168.254.148]:60124 got paired
+[2025-10-18 14:20:10.230665 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:25:12.153633 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:60124 closed
+[2025-10-18 14:25:16.190716 +08:00] INFO [src\relay_server.rs:452] New relay request 130566e5-dfab-4a15-a929-41100b0f001a from [::ffff:192.168.254.148]:58581
+[2025-10-18 14:25:16.197157 +08:00] INFO [src\relay_server.rs:436] Relayrequest 130566e5-dfab-4a15-a929-41100b0f001a from [::ffff:192.168.254.103]:53091 got paired
+[2025-10-18 14:25:16.197200 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:25:33.087340 +08:00] INFO [src\relay_server.rs:582] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-18 14:25:33.087396 +08:00] INFO [src\relay_server.rs:61] #blacklist(blacklist.txt): 0
+[2025-10-18 14:25:33.087418 +08:00] INFO [src\relay_server.rs:76] #blocklist(blocklist.txt): 0
+[2025-10-18 14:25:33.087422 +08:00] INFO [src\relay_server.rs:82] Listening on tcp :21117
+[2025-10-18 14:25:33.087424 +08:00] INFO [src\relay_server.rs:84] Listening on websocket :21119
+[2025-10-18 14:25:33.087426 +08:00] INFO [src\relay_server.rs:87] Start
+[2025-10-18 14:25:33.088620 +08:00] INFO [src\relay_server.rs:105] DOWNGRADE_THRESHOLD: 0.66
+[2025-10-18 14:25:33.088632 +08:00] INFO [src\relay_server.rs:115] DOWNGRADE_START_CHECK: 1800s
+[2025-10-18 14:25:33.088635 +08:00] INFO [src\relay_server.rs:125] LIMIT_SPEED: 4Mb/s
+[2025-10-18 14:25:33.088636 +08:00] INFO [src\relay_server.rs:136] TOTAL_BANDWIDTH: 1024Mb/s
+[2025-10-18 14:25:33.088637 +08:00] INFO [src\relay_server.rs:146] SINGLE_BANDWIDTH: 16Mb/s
+[2025-10-18 14:25:45.555876 +08:00] INFO [src\relay_server.rs:452] New relay request 060d02df-c6b8-4b9d-92bc-660393a6dbf1 from [::ffff:192.168.254.148]:58589
+[2025-10-18 14:25:45.558972 +08:00] INFO [src\relay_server.rs:436] Relayrequest 060d02df-c6b8-4b9d-92bc-660393a6dbf1 from [::ffff:192.168.254.103]:53107 got paired
+[2025-10-18 14:25:45.559016 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:28:21.850745 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:53107 closed
+[2025-10-18 14:28:23.779148 +08:00] INFO [src\relay_server.rs:452] New relay request 2d42f59a-19d6-467a-845b-30b3e022054c from [::ffff:192.168.254.103]:53278
+[2025-10-18 14:28:23.903212 +08:00] INFO [src\relay_server.rs:436] Relayrequest 2d42f59a-19d6-467a-845b-30b3e022054c from [::ffff:192.168.254.148]:58611 got paired
+[2025-10-18 14:28:23.903263 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:29:04.699422 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58611 closed
+[2025-10-18 14:29:24.926438 +08:00] INFO [src\relay_server.rs:452] New relay request 11f2469b-17be-4976-9d73-4b22d6d6502b from [::ffff:192.168.254.148]:58622
+[2025-10-18 14:29:24.940801 +08:00] INFO [src\relay_server.rs:436] Relayrequest 11f2469b-17be-4976-9d73-4b22d6d6502b from [::ffff:192.168.254.103]:53321 got paired
+[2025-10-18 14:29:24.940814 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:30:37.643820 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:53321 closed
+[2025-10-18 14:30:41.691568 +08:00] INFO [src\relay_server.rs:452] New relay request a1e032a7-9cd2-45ff-8cd6-4469afb3764b from [::ffff:192.168.254.103]:53367
+[2025-10-18 14:30:41.734750 +08:00] INFO [src\relay_server.rs:436] Relayrequest a1e032a7-9cd2-45ff-8cd6-4469afb3764b from [::ffff:192.168.254.148]:58632 got paired
+[2025-10-18 14:30:41.734761 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:31:10.204117 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58632 closed
+[2025-10-18 14:31:12.927453 +08:00] INFO [src\relay_server.rs:452] New relay request 91cac994-2bf8-400f-b374-f243f2029301 from [::ffff:192.168.254.103]:53385
+[2025-10-18 14:31:13.083157 +08:00] INFO [src\relay_server.rs:436] Relayrequest 91cac994-2bf8-400f-b374-f243f2029301 from [::ffff:192.168.254.148]:58639 got paired
+[2025-10-18 14:31:13.083174 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:31:39.730392 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58639 closed
+[2025-10-18 14:31:40.830106 +08:00] INFO [src\relay_server.rs:452] New relay request ccfb79b3-3864-40fd-bc8f-f2f3a917b782 from [::ffff:192.168.254.148]:58646
+[2025-10-18 14:31:40.836747 +08:00] INFO [src\relay_server.rs:436] Relayrequest ccfb79b3-3864-40fd-bc8f-f2f3a917b782 from [::ffff:192.168.254.103]:53406 got paired
+[2025-10-18 14:31:40.836774 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:31:44.831528 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.103]:53406 closed
+[2025-10-18 14:31:45.993671 +08:00] INFO [src\relay_server.rs:452] New relay request a788e50a-3a10-43bd-b418-5981983d7619 from [::ffff:192.168.254.103]:53413
+[2025-10-18 14:31:46.157763 +08:00] INFO [src\relay_server.rs:436] Relayrequest a788e50a-3a10-43bd-b418-5981983d7619 from [::ffff:192.168.254.148]:58651 got paired
+[2025-10-18 14:31:46.157773 +08:00] INFO [src\relay_server.rs:442] Both are raw
+[2025-10-18 14:31:49.861546 +08:00] INFO [src\relay_server.rs:448] Relay of [::ffff:192.168.254.148]:58651 closed
