@@ -1,0 +1,15 @@
+rendezvous_server = '192.168.254.103:21116'
+nat_type = 1
+serial = 0
+unlock_pin = ''
+trusted_devices = '00lXZ/dgXJMEISL2O7d503lO8H'
+
+[options]
+key = 'Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ='
+local-ip-addr = '192.168.254.103'
+verification-method = 'use-permanent-password'
+allow-remote-config-modification = 'Y'
+custom-rendezvous-server = '192.168.254.103:21116'
+relay-server = '192.168.254.103:21117'
+direct-server = 'Y'
+av1-test = 'Y'

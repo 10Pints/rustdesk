@@ -1,0 +1,16 @@
+remote_id = ''
+kb_layout_type = ''
+size = [
+    0,
+    0,
+    0,
+    0,
+]
+fav = []
+
+[options]
+enable-udp-punch = 'Y'
+
+[ui_flutter]
+wm_Main = '{"width":880.0,"height":924.0,"offsetWidth":871.0,"offsetHeight":53.0,"isMaximized":false,"isFullscreen":false}'
+peer-sorting = 'Remote ID'

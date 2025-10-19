@@ -1,0 +1,72 @@
+config = '''
+{
+  "signature": 9007201573102740,
+  "ram_encode": [
+    {
+      "name": "h264_amf",
+      "format": "H264",
+      "priority": 0,
+      "hwdevice": "AV_HWDEVICE_TYPE_NONE"
+    },
+    {
+      "name": "hevc_amf",
+      "format": "H265",
+      "priority": 0,
+      "hwdevice": "AV_HWDEVICE_TYPE_NONE"
+    }
+  ],
+  "ram_decode": [
+    {
+      "name": "h264",
+      "format": "H264",
+      "priority": 0,
+      "hwdevice": "AV_HWDEVICE_TYPE_D3D11VA"
+    },
+    {
+      "name": "hevc",
+      "format": "H265",
+      "priority": 0,
+      "hwdevice": "AV_HWDEVICE_TYPE_D3D11VA"
+    },
+    {
+      "name": "h264",
+      "format": "H264",
+      "priority": 3,
+      "hwdevice": "AV_HWDEVICE_TYPE_NONE"
+    },
+    {
+      "name": "hevc",
+      "format": "H265",
+      "priority": 3,
+      "hwdevice": "AV_HWDEVICE_TYPE_NONE"
+    }
+  ],
+  "vram_encode": [
+    {
+      "driver": "FFMPEG",
+      "vendor": "AMF",
+      "luid": 58208,
+      "data_format": "H264"
+    },
+    {
+      "driver": "FFMPEG",
+      "vendor": "AMF",
+      "luid": 58208,
+      "data_format": "H265"
+    }
+  ],
+  "vram_decode": [
+    {
+      "driver": "FFMPEG",
+      "vendor": "AMF",
+      "luid": 58208,
+      "data_format": "H264"
+    },
+    {
+      "driver": "FFMPEG",
+      "vendor": "AMF",
+      "luid": 58208,
+      "data_format": "H265"
+    }
+  ]
+}'''

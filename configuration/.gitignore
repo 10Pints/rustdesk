@@ -1,0 +1,5 @@
+/logs/
+*.log
+*.out
+*.err
+logs/hbbr.out

@@ -1,0 +1,22 @@
+remote_id = '6986591'
+kb_layout_type = ''
+size = [
+    0,
+    0,
+    0,
+    0,
+]
+fav = []
+
+[options]
+remote-menubar-drag-right = '1.0'
+allow-d3d-render = 'Y'
+remote-menubar-drag-left = '0.0'
+enable-udp-punch = 'Y'
+enable-ipv6-punch = 'N'
+
+[ui_flutter]
+wm_Main = '{"width":1000.0,"height":815.0,"offsetWidth":159.0,"offsetHeight":130.0,"isMaximized":false,"isFullscreen":false}'
+peer-sorting = 'Remote ID'
+remoteMenubarState = '{"pin":true}'
+wm_RemoteDesktop = '{"width":1938.0,"height":1318.0,"offsetWidth":-3478.0,"offsetHeight":-1377.0,"isMaximized":true,"isFullscreen":false}'

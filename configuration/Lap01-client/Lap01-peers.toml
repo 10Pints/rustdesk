@@ -1,0 +1,61 @@
+password = []
+size = [
+    0,
+    0,
+    0,
+    0,
+]
+size_ft = [
+    0,
+    0,
+    0,
+    0,
+]
+size_pf = [
+    0,
+    0,
+    0,
+    0,
+]
+view_style = 'original'
+scroll_style = 'scrollauto'
+image_quality = 'low'
+custom_image_quality = [50]
+show_remote_cursor = false
+lock_after_session_end = false
+terminal-persistent = false
+privacy_mode = false
+allow_swap_key = false
+port_forwards = []
+direct_failures = 0
+disable_audio = false
+disable_clipboard = false
+enable-file-copy-paste = true
+show_quality_monitor = false
+follow_remote_cursor = false
+follow_remote_window = false
+view_only = false
+show_my_cursor = false
+sync-init-clipboard = false
+trackpad-speed = 100
+
+[options]
+codec-preference = 'auto'
+collapse_toolbar = ''
+touch-mode = ''
+zoom-cursor = ''
+custom-fps = '30'
+i444 = ''
+swap-left-right-mouse = ''
+
+[ui_flutter]
+wm_RemoteDesktop = '{"width":3854.0,"height":2167.0,"offsetWidth":-3848.0,"offsetHeight":-1434.0,"isMaximized":true,"isFullscreen":false}'
+
+[info]
+username = ''
+hostname = ''
+platform = ''
+
+[transfer]
+write_jobs = []
+read_jobs = []
