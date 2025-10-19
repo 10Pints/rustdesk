@@ -4783,3 +4783,156 @@ where
 [2025-10-18 23:33:54.543511 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:64092 closed
 [2025-10-18 23:33:54.612056 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:64093, ws: false
 [2025-10-18 23:33:54.612192 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:64093 closed
+[2025-10-19 12:24:14.336765 +08:00] INFO [src\common.rs:121] Private key comes from id_ed25519
+[2025-10-19 12:24:14.337697 +08:00] INFO [src\rendezvous_server.rs:1205] Key: Fzp4FFNKxIW3CzZqPRdnigK+5xDz2z3wi19KigbmzHQ=
+[2025-10-19 12:24:14.342358 +08:00] INFO [src\peer.rs:84] DB_URL=C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\RustDesk\config\db_v2.sqlite3
+[2025-10-19 12:24:14.342628 +08:00] DEBUG [src\database.rs:58] MAX_DATABASE_CONNECTIONS=1
+[2025-10-19 12:24:14.369549 +08:00] DEBUG [<unnamed>:0] PRAGMA page_size = 4096; …; rows affected: 0, rows returned: 2, elapsed: 9.181ms
+
+PRAGMA page_size = 4096;
+PRAGMA locking_mode = NORMAL;
+PRAGMA journal_mode = WAL;
+PRAGMA foreign_keys = ON;
+PRAGMA synchronous = FULL;
+PRAGMA auto_vacuum = NONE;
+
+[2025-10-19 12:24:14.370451 +08:00] DEBUG [<unnamed>:0] create table if not …; rows affected: 0, rows returned: 0, elapsed: 106.900µs
+
+create table if not exists peer (
+  guid blob primary key not null,
+  id varchar(100) not null,
+  uuid blob not null,
+  pk blob not null,
+  created_at datetime not null default(current_timestamp),
+  user blob,
+  status tinyint,
+  note varchar(300),
+  info text not null
+) without rowid;
+create unique index if not exists index_peer_id on peer (id);
+create index if not exists index_peer_user on peer (user);
+create index if not exists index_peer_created_at on peer (created_at);
+create index if not exists index_peer_status on peer (status);
+
+[2025-10-19 12:24:14.370538 +08:00] INFO [src\rendezvous_server.rs:99] serial=0
+[2025-10-19 12:24:14.370765 +08:00] INFO [src\common.rs:45] rendezvous-servers=[]
+[2025-10-19 12:24:14.370774 +08:00] INFO [src\rendezvous_server.rs:101] Listening on tcp/udp :21116
+[2025-10-19 12:24:14.370777 +08:00] INFO [src\rendezvous_server.rs:102] Listening on tcp :21115, extra port for NAT test
+[2025-10-19 12:24:14.370779 +08:00] INFO [src\rendezvous_server.rs:103] Listening on websocket :21118
+[2025-10-19 12:24:14.373255 +08:00] DEBUG [libs\hbb_common\src\udp.rs:35] Receive buf size of udp [::]:21116: Ok(65536)
+[2025-10-19 12:24:14.373627 +08:00] DEBUG [src\rendezvous_server.rs:1311] listen on udp Some([::]:21116)
+[2025-10-19 12:24:14.374388 +08:00] INFO [src\rendezvous_server.rs:138] mask: None
+[2025-10-19 12:24:14.374402 +08:00] INFO [src\rendezvous_server.rs:139] local-ip: ""
+[2025-10-19 12:24:14.374420 +08:00] INFO [src\common.rs:45] relay-servers=[]
+[2025-10-19 12:24:14.374520 +08:00] DEBUG [src\rendezvous_server.rs:1323] listen on tcp Ok([::]:21116)
+[2025-10-19 12:24:14.374559 +08:00] DEBUG [src\rendezvous_server.rs:1323] listen on tcp Ok([::]:21115)
+[2025-10-19 12:24:14.374594 +08:00] DEBUG [src\rendezvous_server.rs:1323] listen on tcp Ok([::]:21118)
+[2025-10-19 12:24:14.374598 +08:00] INFO [src\rendezvous_server.rs:153] ALWAYS_USE_RELAY=N
+[2025-10-19 12:24:14.375268 +08:00] DEBUG [libs\hbb_common\src\udp.rs:35] Receive buf size of udp [::]:0: Ok(65536)
+[2025-10-19 12:24:14.374942 +08:00] INFO [src\rendezvous_server.rs:185] Start
+[2025-10-19 12:24:14.814949 +08:00] DEBUG [C:\Users\runneradmin\.cargo\registry\src\index.crates.io-6f17d22bba15001f\hyper-0.14.32\src\client\connect\dns.rs:122] resolving host="api.rustdesk.com"
+[2025-10-19 12:24:14.816785 +08:00] DEBUG [src\common.rs:196] error sending request for url (https://api.rustdesk.com/version/latest): error trying to connect: dns error: No such host is known. (os error 11001)
+
+Caused by:
+    0: error trying to connect: dns error: No such host is known. (os error 11001)
+    1: dns error: No such host is known. (os error 11001)
+    2: No such host is known. (os error 11001), hbbs::common:src\common.rs:196:36
+[2025-10-19 12:24:31.577200 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:49761, ws: false
+[2025-10-19 12:24:31.578023 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:49761 closed
+[2025-10-19 12:24:31.600908 +08:00] DEBUG [<unnamed>:0] select guid, id, uuid, …; rows affected: 0, rows returned: 1, elapsed: 104.200µs
+
+select
+  guid,
+  id,
+  uuid,
+  pk,
+  user,
+  status,
+  info
+from
+  peer
+where
+  id = ?
+
+[2025-10-19 12:24:41.368896 +08:00] DEBUG [<unnamed>:0] select guid, id, uuid, …; rows affected: 0, rows returned: 1, elapsed: 75.900µs
+
+select
+  guid,
+  id,
+  uuid,
+  pk,
+  user,
+  status,
+  info
+from
+  peer
+where
+  id = ?
+
+[2025-10-19 12:57:58.473150 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:52659, ws: false
+[2025-10-19 12:57:58.473605 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:52659 closed
+[2025-10-19 12:57:58.869035 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:52660, ws: false
+[2025-10-19 12:57:58.869158 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:52660 closed
+[2025-10-19 13:00:18.210395 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:61895, ws: false
+[2025-10-19 13:00:18.210515 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:61895 closed
+[2025-10-19 13:22:47.249848 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:55590, ws: false
+[2025-10-19 13:22:47.252402 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:55590 closed
+[2025-10-19 13:33:35.354237 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:54290, ws: false
+[2025-10-19 13:33:35.357571 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:54290
+[2025-10-19 13:33:35.359392 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:51447, ws: false
+[2025-10-19 13:33:35.359963 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:51447 closed
+[2025-10-19 13:33:35.378675 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:54290 closed
+[2025-10-19 13:56:36.433836 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:64691, ws: false
+[2025-10-19 13:56:36.433942 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:64691
+[2025-10-19 13:56:36.434445 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:52222, ws: false
+[2025-10-19 13:56:36.434713 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:52222 closed
+[2025-10-19 13:56:36.459595 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:64691 closed
+[2025-10-19 14:14:07.470837 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:53125, ws: false
+[2025-10-19 14:14:07.471025 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:53125
+[2025-10-19 14:14:07.472564 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:52879, ws: false
+[2025-10-19 14:14:07.473154 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:52879 closed
+[2025-10-19 14:14:07.485313 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:53125 closed
+[2025-10-19 14:28:39.835675 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:60080, ws: false
+[2025-10-19 14:28:39.836529 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:60080
+[2025-10-19 14:28:39.838191 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:53335, ws: false
+[2025-10-19 14:28:39.838676 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:53335 closed
+[2025-10-19 14:28:39.853959 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:60080 closed
+[2025-10-19 14:33:56.787400 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:54696, ws: false
+[2025-10-19 14:33:56.787920 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:54696
+[2025-10-19 14:33:56.789500 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:53499, ws: false
+[2025-10-19 14:33:56.790021 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:53499 closed
+[2025-10-19 14:33:56.809425 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:54696 closed
+[2025-10-19 14:37:13.965987 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:60378, ws: false
+[2025-10-19 14:37:13.973447 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:60378
+[2025-10-19 14:37:13.974968 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:53601, ws: false
+[2025-10-19 14:37:13.989753 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:53601 closed
+[2025-10-19 14:37:14.065555 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:60378 closed
+[2025-10-19 14:56:43.998985 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:63560, ws: false
+[2025-10-19 14:56:44.000454 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:63560 closed
+[2025-10-19 14:56:50.372055 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:54990, ws: false
+[2025-10-19 14:56:50.372901 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:54990
+[2025-10-19 14:56:50.374437 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:54242, ws: false
+[2025-10-19 14:56:50.374953 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:54242 closed
+[2025-10-19 14:56:50.391826 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:54990 closed
+[2025-10-19 14:57:34.526874 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:65117, ws: false
+[2025-10-19 14:57:34.527732 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:65117
+[2025-10-19 14:57:34.529249 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:54260, ws: false
+[2025-10-19 14:57:34.529741 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:54260 closed
+[2025-10-19 14:57:34.542984 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:65117 closed
+[2025-10-19 14:58:33.888626 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:50568, ws: false
+[2025-10-19 14:58:33.898529 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:50568
+[2025-10-19 14:58:33.900105 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:54292, ws: false
+[2025-10-19 14:58:33.900607 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:54292 closed
+[2025-10-19 14:58:33.920175 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:50568 closed
+[2025-10-19 14:58:55.982608 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:50575, ws: false
+[2025-10-19 14:58:55.982664 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:50575 closed
+[2025-10-19 14:59:00.524103 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:56966, ws: false
+[2025-10-19 14:59:00.524870 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:56966
+[2025-10-19 14:59:00.525324 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:54308, ws: false
+[2025-10-19 14:59:00.538985 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:54308 closed
+[2025-10-19 14:59:00.558664 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:56966 closed
+[2025-10-19 15:00:28.339900 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.148]:65136, ws: false
+[2025-10-19 15:00:28.354349 +08:00] DEBUG [src\rendezvous_server.rs:742] Punch hole "6986591" [::ffff:192.168.254.103]:56579 request from [::ffff:192.168.254.148]:65136
+[2025-10-19 15:00:28.355857 +08:00] DEBUG [src\rendezvous_server.rs:1097] Tcp connection from [::ffff:192.168.254.103]:54366, ws: false
+[2025-10-19 15:00:28.356354 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.103]:54366 closed
+[2025-10-19 15:00:28.649014 +08:00] DEBUG [src\rendezvous_server.rs:1153] Tcp connection from [::ffff:192.168.254.148]:65136 closed
